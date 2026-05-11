@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<mxfile host="draw.io" modified="2026-04-27" agent="Claude" version="24.0.0" type="device">
+  <diagram id="er-diagram" name="质押记录(stake_records)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="质押记录&#10;(stake_records)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="470" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="记录ID" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;fontStyle=5;" vertex="1" parent="1">
+          <mxGeometry x="655" y="300" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="用户地址" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="810.884572681199" y="394.0" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="代币地址" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="833.4600750472858" y="507.4947145996093" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="7" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="质押数量" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="782.2792206135786" y="611.2792206135786" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="9" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="奖励收益" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="678.4947145996093" y="662.4600750472858" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="11" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="余额" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="565.0" y="639.884572681199" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="13" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="最后更新时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="488.7016841479683" y="552.8830178257161" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="15" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="创建时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="481.13335126796767" y="437.4125718815462" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="17" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="更新时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="545.4229427784303" y="341.19639874757775" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="19" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

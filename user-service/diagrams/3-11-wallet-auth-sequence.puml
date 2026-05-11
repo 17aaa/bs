@@ -1,0 +1,51 @@
+@startuml 3-11-wallet-auth-sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam sequenceParticipantBorderColor #4A90D9
+skinparam sequenceParticipantBackgroundColor #E8F4FD
+skinparam sequenceLifeLineBorderColor #999999
+skinparam participantPadding 20
+skinparam messageSpacing 30
+
+
+
+actor "用户" as User
+participant "前端" as FE
+participant "MetaMask" as MM
+participant "后端" as BE
+database "Redis" as Redis
+database "MySQL" as DB
+
+== MetaMask签名登录 ==
+
+User -> FE : 点击连接钱包
+FE -> MM : 请求账户授权
+MM -> FE : 返回钱包地址
+
+FE -> BE : 请求挑战消息
+BE -> Redis : 存储挑战(5分钟有效)
+BE --> FE : 返回挑战消息
+
+FE -> MM : 请求签名
+MM -> FE : 返回签名
+
+FE -> BE : 提交签名验证
+BE -> BE : 验证签名
+
+alt 验证通过
+    BE -> DB : 查询或创建用户
+    BE --> FE : 登录成功
+else 验证失败
+    BE --> FE : 认证失败
+end
+
+== 服务端钱包降级 ==
+
+User -> FE : 选择服务端钱包登录
+FE -> BE : 请求创建钱包
+BE -> BE : 生成密钥对和助记词
+BE -> DB : 创建用户并绑定钱包
+BE --> FE : 返回令牌和钱包信息
+
+@enduml

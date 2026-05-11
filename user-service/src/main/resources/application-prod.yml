@@ -1,0 +1,115 @@
+spring:
+  application:
+    name: user-service
+
+  # 生产环境数据库配置
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:mysql}:${MYSQL_PORT:3306}/${MYSQL_DB:creativenft_db}?useSSL=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: ${MYSQL_USER:nftuser}
+    password: ${MYSQL_PASSWORD:nftpass123}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 20
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      connection-timeout: 20000
+      pool-name: HikariPool-Prod
+
+  # 生产环境 Redis 配置
+  data:
+    redis:
+      host: ${REDIS_HOST:redis}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      database: 0
+      timeout: 3000ms
+      lettuce:
+        pool:
+          max-active: 20
+          max-idle: 10
+          min-idle: 5
+          max-wait: 3000ms
+
+  # 文件上传配置
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: true
+      logic-not-delete-value: false
+
+server:
+  port: ${SERVER_PORT:8085}
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/plain
+    min-response-size: 1024
+
+# 区块链配置
+blockchain:
+  rpc-url: ${BLOCKCHAIN_RPC_URL:https://rpc-amoy.polygon.technology/}
+  chain-id: ${BLOCKCHAIN_CHAIN_ID:80002}
+  gas-price: 30000000000  # 30 Gwei
+  gas-limit: 500000
+  platform-private-key: ${BLOCKCHAIN_PLATFORM_PRIVATE_KEY}
+  contract:
+    nft-asset-address: ${NFT_ASSET_CONTRACT_ADDRESS}
+    micro-market-address: ${MICRO_MARKET_CONTRACT_ADDRESS}
+    fan-token-address: ${FAN_TOKEN_CONTRACT_ADDRESS}
+  ipfs:
+    url: ${IPFS_API_URL:https://ipfs.io}
+    gateway: ${IPFS_GATEWAY_URL:https://ipfs.io/ipfs/}
+    max-file-size: 52428800
+    max-batch-size: 10
+    auto-pin: true
+    retry-count: 3
+
+# 日志配置（生产环境）
+logging:
+  level:
+    root: WARN
+    com.zhm.springboot.userservice: INFO
+    org.springframework.web: WARN
+    org.web3j: WARN
+    com.baomidou.mybatisplus: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: /app/logs/user-service.log
+    max-size: 100MB
+    max-history: 30
+    total-size-cap: 1GB
+
+# Actuator 配置（生产环境）
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: when_authorized
+      show-components: when_authorized
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  info:
+    env:
+      enabled: true
+    build:
+      enabled: true
+    git:
+      enabled: true

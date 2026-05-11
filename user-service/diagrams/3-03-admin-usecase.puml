@@ -1,0 +1,48 @@
+@startuml 3-03-admin-usecase
+!theme plain
+skinparam backgroundColor white
+skinparam actorStyle awesome
+skinparam usecase {
+    BackgroundColor #FFF2CC
+    BorderColor #333333
+}
+
+title 图3-3 管理员用例图
+
+left to right direction
+
+actor "管理员" as admin
+
+usecase "NFT审核" as UC1
+usecase "审核通过" as UC2
+usecase "审核驳回" as UC3
+usecase "下架NFT" as UC4
+
+usecase "用户管理" as UC5
+usecase "封禁/解封用户" as UC6
+usecase "调整用户角色" as UC7
+
+usecase "代币管理" as UC8
+usecase "激活公募" as UC9
+usecase "暂停公募" as UC10
+usecase "结束发行" as UC11
+
+usecase "数据统计" as UC12
+
+admin -- UC1
+admin -- UC5
+admin -- UC8
+admin -- UC12
+
+UC2 .> UC1 : <<extend>>
+UC3 .> UC1 : <<extend>>
+UC4 .> UC1 : <<extend>>
+
+UC6 .> UC5 : <<extend>>
+UC7 .> UC5 : <<extend>>
+
+UC9 .> UC8 : <<extend>>
+UC10 .> UC8 : <<extend>>
+UC11 .> UC8 : <<extend>>
+
+@enduml

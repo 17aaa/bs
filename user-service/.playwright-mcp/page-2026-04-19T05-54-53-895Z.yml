@@ -1,0 +1,181 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+    - navigation [ref=e8]:
+      - generic [ref=e9] [cursor=pointer]: 首页
+      - generic [ref=e10] [cursor=pointer]: 市场
+      - generic [ref=e11] [cursor=pointer]: 创作
+      - generic [ref=e12] [cursor=pointer]: 代币
+      - generic [ref=e13] [cursor=pointer]: 我的
+      - generic [ref=e14]:
+        - button "🔔" [ref=e16] [cursor=pointer]
+        - button "退出" [ref=e17] [cursor=pointer]
+        - generic [ref=e18]:
+          - generic [ref=e19]: Amoy
+          - generic [ref=e20]: 0x9f22...6ef6
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - heading "🎓 学生创意成果交易市场" [level=3] [ref=e23]
+      - paragraph [ref=e24]:
+        - text: 在这里可以购买和出售学生创作的NFT作品。
+        - strong [ref=e25]: 注意：
+        - text: 只有已上架销售的NFT才会出现在市场中。
+        - text: 如果你是创作者，可以在"我的NFT"页面选择作品进行上架销售。
+    - heading "探索 NFT" [level=1] [ref=e26]
+    - generic [ref=e27]:
+      - button "全部" [ref=e28] [cursor=pointer]
+      - button "艺术" [active] [ref=e29] [cursor=pointer]
+      - button "音乐" [ref=e30] [cursor=pointer]
+      - button "摄影" [ref=e31] [cursor=pointer]
+      - button "设计" [ref=e32] [cursor=pointer]
+      - button "写作" [ref=e33] [cursor=pointer]
+      - button "视频" [ref=e34] [cursor=pointer]
+      - textbox "搜索 NFT..." [ref=e35]
+      - combobox [ref=e36] [cursor=pointer]:
+        - option "最新发布" [selected]
+        - option "最早发布"
+    - generic [ref=e179]:
+      - generic [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]:
+          - generic [ref=e182]: 固定价格
+          - generic [ref=e183]: 🎨
+        - generic [ref=e184]:
+          - heading "测试111" [level=3] [ref=e185]
+          - paragraph [ref=e186]: "1"
+          - generic [ref=e187]:
+            - generic [ref=e188]: 售价
+            - generic [ref=e189]: 0.0010 MATIC
+          - generic [ref=e190]:
+            - generic [ref=e191]: Art
+            - generic [ref=e192]: 版本：
+          - generic [ref=e193]:
+            - generic [ref=e194]: "ID: 1774251192522"
+            - generic [ref=e195]: 版税：NaN%
+          - button "查看详情" [ref=e196]
+          - button "购买" [ref=e197]
+      - generic [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]:
+          - generic [ref=e200]: 固定价格
+          - generic [ref=e201]: 🎨
+        - generic [ref=e202]:
+          - heading "测试111" [level=3] [ref=e203]
+          - paragraph [ref=e204]: "1"
+          - generic [ref=e205]:
+            - generic [ref=e206]: 售价
+            - generic [ref=e207]: 0.0010 MATIC
+          - generic [ref=e208]:
+            - generic [ref=e209]: Art
+            - generic [ref=e210]: 版本：
+          - generic [ref=e211]:
+            - generic [ref=e212]: "ID: 1774251192522"
+            - generic [ref=e213]: 版税：NaN%
+          - button "查看详情" [ref=e214]
+          - button "购买" [ref=e215]
+      - generic [ref=e216] [cursor=pointer]:
+        - generic [ref=e217]:
+          - generic [ref=e218]: 固定价格
+          - generic [ref=e219]: 🎨
+        - generic [ref=e220]:
+          - heading "海豚测试" [level=3] [ref=e221]
+          - paragraph [ref=e222]: "1"
+          - generic [ref=e223]:
+            - generic [ref=e224]: 售价
+            - generic [ref=e225]: 0.0010 MATIC
+          - generic [ref=e226]:
+            - generic [ref=e227]: Art
+            - generic [ref=e228]: 版本：
+          - generic [ref=e229]:
+            - generic [ref=e230]: "ID: 1774251119474"
+            - generic [ref=e231]: 版税：NaN%
+          - button "查看详情" [ref=e232]
+          - button "购买" [ref=e233]
+      - generic [ref=e234] [cursor=pointer]:
+        - generic [ref=e235]:
+          - generic [ref=e236]: 固定价格
+          - generic [ref=e237]: 🎨
+        - generic [ref=e238]:
+          - heading "GEO" [level=3] [ref=e239]
+          - paragraph
+          - generic [ref=e240]:
+            - generic [ref=e241]: 售价
+            - generic [ref=e242]: 0.0010 MATIC
+          - generic [ref=e243]:
+            - generic [ref=e244]: Art
+            - generic [ref=e245]: 版本：
+          - generic [ref=e246]:
+            - generic [ref=e247]: "ID: 1774260950830"
+            - generic [ref=e248]: 版税：NaN%
+          - button "查看详情" [ref=e249]
+          - button "购买" [ref=e250]
+      - generic [ref=e251] [cursor=pointer]:
+        - generic [ref=e252]:
+          - generic [ref=e253]: 固定价格
+          - generic [ref=e254]: 🎨
+        - generic [ref=e255]:
+          - heading "GEO" [level=3] [ref=e256]
+          - paragraph [ref=e257]: geo
+          - generic [ref=e258]:
+            - generic [ref=e259]: 售价
+            - generic [ref=e260]: 0.0010 MATIC
+          - generic [ref=e261]:
+            - generic [ref=e262]: Art
+            - generic [ref=e263]: 版本：
+          - generic [ref=e264]:
+            - generic [ref=e265]: "ID: 1774260967022"
+            - generic [ref=e266]: 版税：NaN%
+          - button "查看详情" [ref=e267]
+          - button "购买" [ref=e268]
+      - generic [ref=e269] [cursor=pointer]:
+        - generic [ref=e270]:
+          - generic [ref=e271]: 固定价格
+          - generic [ref=e272]: 🎨
+        - generic [ref=e273]:
+          - heading "GEO" [level=3] [ref=e274]
+          - paragraph
+          - generic [ref=e275]:
+            - generic [ref=e276]: 售价
+            - generic [ref=e277]: 0.0010 MATIC
+          - generic [ref=e278]:
+            - generic [ref=e279]: Art
+            - generic [ref=e280]: 版本：
+          - generic [ref=e281]:
+            - generic [ref=e282]: "ID: 1774260950830"
+            - generic [ref=e283]: 版税：NaN%
+          - button "查看详情" [ref=e284]
+          - button "购买" [ref=e285]
+      - generic [ref=e286] [cursor=pointer]:
+        - generic [ref=e287]:
+          - generic [ref=e288]: 固定价格
+          - generic [ref=e289]: 🎨
+        - generic [ref=e290]:
+          - heading "GEO" [level=3] [ref=e291]
+          - paragraph
+          - generic [ref=e292]:
+            - generic [ref=e293]: 售价
+            - generic [ref=e294]: 0.0010 MATIC
+          - generic [ref=e295]:
+            - generic [ref=e296]: Art
+            - generic [ref=e297]: 版本：
+          - generic [ref=e298]:
+            - generic [ref=e299]: "ID: 1774260950830"
+            - generic [ref=e300]: 版税：NaN%
+          - button "查看详情" [ref=e301]
+          - button "购买" [ref=e302]
+      - generic [ref=e303] [cursor=pointer]:
+        - generic [ref=e304]:
+          - generic [ref=e305]: 固定价格
+          - generic [ref=e306]: 🎨
+        - generic [ref=e307]:
+          - heading "Test NFT" [level=3] [ref=e308]
+          - paragraph [ref=e309]: Test Description
+          - generic [ref=e310]:
+            - generic [ref=e311]: 售价
+            - generic [ref=e312]: 1.0000 MATIC
+          - generic [ref=e313]:
+            - generic [ref=e314]: Art
+            - generic [ref=e315]: 版本：
+          - generic [ref=e316]:
+            - generic [ref=e317]: "ID: 1"
+            - generic [ref=e318]: 版税：NaN%
+          - button "查看详情" [ref=e319]
+          - button "购买" [ref=e320]

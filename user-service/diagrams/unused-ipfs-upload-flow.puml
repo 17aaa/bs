@@ -1,0 +1,51 @@
+@startuml 3-06-ipfs-upload-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #E8F4FD
+
+title 图3-6 IPFS文件上传流程图
+
+start
+
+:用户选择文件;
+
+:前端发起上传请求;
+
+:后端接收文件;
+
+:验证文件类型和大小;
+
+if (验证通过?) then (是)
+    :上传文件到MinIO;
+    :获取MinIO访问URL;
+    :记录文件信息到数据库;
+else (否)
+    :返回错误信息;
+    stop
+endif
+
+if (IPFS模式是否启用?) then (是)
+    :将文件上传到IPFS;
+    if (上传方式?) then (Pinata)
+        :调用Pinata API上传;
+    else (本地节点)
+        :调用本地IPFS节点API;
+    endif
+    if (IPFS上传成功?) then (是)
+        :获取IPFS CID;
+        :更新文件记录(CID);
+        :返回CID和MinIO URL;
+    else (否)
+        :记录IPFS上传失败日志;
+        :仅返回MinIO URL;
+        note right: 降级为MinIO模式
+    endif
+else (否)
+    :仅使用MinIO存储;
+    :返回MinIO URL;
+endif
+
+stop
+
+@enduml

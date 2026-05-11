@@ -1,0 +1,26 @@
+[     158ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     162ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     162ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     469ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     469ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     471ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     471ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     472ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     472ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[   94320ms] [WARNING] styled-components: it looks like an unknown prop "progress" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[  246114ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  246114ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[  246115ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  246116ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[  246116ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  246116ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  309747ms] TypeError: Cannot read properties of undefined (reading 'toWei')
+    at handleListForSale (http://localhost:3000/src/pages/NFTDetailPage.jsx?t=1776600430552:590:33)
+    at executeDispatch (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:9141:5)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:851:66)
+    at processDispatchQueue (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:9167:27)
+    at http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:9454:5
+    at batchedUpdates$1 (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:2044:12)
+    at dispatchEventForPluginEventSystem (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:9240:4)
+    at dispatchEvent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:11319:29)
+    at dispatchDiscreteEvent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:11301:56)

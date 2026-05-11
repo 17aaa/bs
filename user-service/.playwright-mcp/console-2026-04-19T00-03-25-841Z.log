@@ -1,0 +1,27 @@
+[      87ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[      91ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[      91ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     112ms] [WARNING] styled-components: it looks like an unknown prop "active" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[     112ms] [ERROR] Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead. false active active false active active active @ http://localhost:3000/@vite/client:509
+[     395ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     395ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     395ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     396ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     397ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     397ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     397ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     397ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     397ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     397ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     397ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     397ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     404ms] [WARNING] styled-components: it looks like an unknown prop "mock" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[     404ms] [ERROR] Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead. false mock mock false mock mock mock @ http://localhost:3000/@vite/client:509

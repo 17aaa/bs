@@ -1,0 +1,35 @@
+@startuml 3-06-nft-purchase-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #E8F4FD
+
+title 图3-6 NFT购买流程图
+
+start
+
+:买家浏览市场列表;
+
+:选择NFT作品;
+
+if (订单类型?) then (固定价格)
+  :按标价购买;
+else (荷兰拍卖)
+  :按当前递减价格购买;
+endif
+
+if (余额充足?) then (是)
+  :扣减买家积分;
+  :增加卖家积分;
+  :分配版税给创作者;
+  :更新NFT持有者;
+  :推送交易通知;
+  :购买完成;
+else (否)
+  :余额不足，购买失败;
+  stop
+endif
+
+stop
+
+@enduml

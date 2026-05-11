@@ -1,0 +1,23 @@
+# Nacos 配置暂时注释，本地开发使用 application.yml 配置
+# spring:
+#   application:
+#     name: user-service
+#     profiles:
+#       active: dev
+#   cloud:
+#     nacos:
+#         server-addr: 127.0.0.1:8848
+#         config:
+#           file-extension: yaml
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        enabled: false
+      config:
+        enabled: false
+

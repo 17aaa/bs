@@ -1,0 +1,5 @@
+[     180ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     184ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     184ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     186ms] [WARNING] No routes matched location "/account"  @ http://localhost:3000/@vite/client:509
+[     186ms] [WARNING] No routes matched location "/account"  @ http://localhost:3000/@vite/client:509

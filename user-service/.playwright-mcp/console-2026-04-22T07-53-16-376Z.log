@@ -1,0 +1,9 @@
+[     161ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     165ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     165ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     470ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     470ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     471ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     472ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     472ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     472ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76

@@ -1,0 +1,75 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+    - navigation [ref=e8]:
+      - generic [ref=e9] [cursor=pointer]: 首页
+      - generic [ref=e10] [cursor=pointer]: 市场
+      - generic [ref=e11] [cursor=pointer]: 创作
+      - generic [ref=e12] [cursor=pointer]: 代币
+      - generic [ref=e13] [cursor=pointer]: 我的
+      - generic [ref=e14]:
+        - generic [ref=e15]: 💰 98.00 积分
+        - button "🔔" [ref=e17] [cursor=pointer]
+        - button "退出" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Amoy
+          - generic [ref=e21]: 0x22e1...1b8d
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]: B
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - heading "buyer001" [level=2] [ref=e27]
+          - button "编辑资料" [ref=e28] [cursor=pointer]
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 👛
+            - generic [ref=e32]: 已连接钱包
+          - generic [ref=e33]:
+            - generic [ref=e34]: 💰
+            - generic [ref=e35]: 平台积分：98.00 积分
+    - heading "我的 NFT" [level=1] [ref=e36]
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]: 钱包地址
+        - text: "0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d"
+      - generic [ref=e40]:
+        - generic [ref=e41]: Amoy
+        - generic [ref=e42]: 0x22e1...1b8d
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: "0"
+        - generic [ref=e46]: 已创作
+      - generic [ref=e47]:
+        - generic [ref=e48]: "2"
+        - generic [ref=e49]: 持有中
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e52]: 交易额 (积分)
+    - generic [ref=e53]:
+      - button "我创作的" [ref=e54] [cursor=pointer]
+      - button "我持有的" [ref=e55] [cursor=pointer]
+      - button "交易记录" [active] [ref=e56] [cursor=pointer]
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e88]: 🎨
+        - generic [ref=e89]:
+          - generic [ref=e90]: 测试
+          - generic [ref=e91]: 我购买 · 已成交 · 2026-04-22
+        - generic [ref=e93]: "-1.00 积分"
+      - generic [ref=e94]:
+        - generic [ref=e96]: 🎨
+        - generic [ref=e97]:
+          - generic [ref=e98]: "Order #12"
+          - generic [ref=e99]: 我出售 · 挂单中 · 2026-04-22
+        - generic [ref=e101]: +5.00 积分
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: 测试NFT作品
+          - generic [ref=e106]: 我出售 · 挂单中 · 2026-04-22
+        - generic [ref=e108]: +? 积分
+      - generic [ref=e109]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: 测试NFT作品
+          - generic [ref=e113]: 我购买 · 已成交 · 2026-04-22
+        - generic [ref=e115]: "-1.00 积分"

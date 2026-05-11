@@ -1,0 +1,70 @@
+dataSources:
+  ds0:
+    dataSourceClassName: com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://localhost:3306/creativenft_db?useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password:
+    connectionTimeout: 30000
+    maximumPoolSize: 15
+
+rules:
+  - !SHARDING
+    tables:
+      users:
+        actualDataNodes: ds0.users
+        databaseStrategy:
+          none:
+      user_roles:
+        actualDataNodes: ds0.user_roles
+        databaseStrategy:
+          none:
+      mint_tasks:
+        actualDataNodes: ds0.mint_tasks
+        databaseStrategy:
+          none:
+      # NFT 相关表配置（不分片）
+      nft_assets:
+        actualDataNodes: ds0.nft_assets
+        databaseStrategy:
+          none:
+      nft_versions:
+        actualDataNodes: ds0.nft_versions
+        databaseStrategy:
+          none:
+      # 市场订单表配置
+      market_orders:
+        actualDataNodes: ds0.market_orders
+        databaseStrategy:
+          none:
+      # 粉丝代币表配置
+      fan_tokens:
+        actualDataNodes: ds0.fan_tokens
+        databaseStrategy:
+          none:
+      stake_records:
+        actualDataNodes: ds0.stake_records
+        databaseStrategy:
+          none:
+      # 钱包表配置
+      wallets:
+        actualDataNodes: ds0.wallets
+        databaseStrategy:
+          none:
+      # 审核记录表配置
+      nft_reviews:
+        actualDataNodes: ds0.nft_reviews
+        databaseStrategy:
+          none:
+      # 交易通知表配置
+      transaction_notifications:
+        actualDataNodes: ds0.transaction_notifications
+        databaseStrategy:
+          none:
+      # 操作日志表配置
+      audit_logs:
+        actualDataNodes: ds0.audit_logs
+        databaseStrategy:
+          none:
+    bindingTables:
+      - users

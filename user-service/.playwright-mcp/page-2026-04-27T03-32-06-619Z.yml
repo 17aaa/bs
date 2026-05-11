@@ -1,0 +1,79 @@
+- generic [ref=e377]:
+  - banner [ref=e378]:
+    - heading "CreativeNFT" [level=1] [ref=e379] [cursor=pointer]
+    - navigation [ref=e380]:
+      - generic [ref=e381] [cursor=pointer]: 首页
+      - generic [ref=e382] [cursor=pointer]: 市场
+      - generic [ref=e383] [cursor=pointer]: 创作
+      - generic [ref=e384] [cursor=pointer]: 代币
+      - generic [ref=e385] [cursor=pointer]: 我的
+      - generic [ref=e386]:
+        - generic [ref=e387]: 💰 98.00 积分
+        - button "🔔" [ref=e389] [cursor=pointer]
+        - button "退出" [ref=e390] [cursor=pointer]
+        - generic [ref=e391]:
+          - generic [ref=e392]: Amoy
+          - generic [ref=e393]: 0x22e1...1b8d
+  - generic [ref=e394]:
+    - generic [ref=e395]:
+      - generic [ref=e396]: B
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - heading "buyer001" [level=2] [ref=e399]
+          - button "编辑资料" [ref=e400] [cursor=pointer]
+        - generic [ref=e401]:
+          - generic [ref=e402]:
+            - generic [ref=e403]: 👛
+            - generic [ref=e404]: 已连接钱包
+          - generic [ref=e405]:
+            - generic [ref=e406]: 💰
+            - generic [ref=e407]: 平台积分：98.00 积分
+    - heading "我的 NFT" [level=1] [ref=e408]
+    - generic [ref=e409]:
+      - generic [ref=e410]:
+        - generic [ref=e411]: 钱包地址
+        - text: "0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d"
+      - generic [ref=e412]:
+        - generic [ref=e413]: Amoy
+        - generic [ref=e414]: 0x22e1...1b8d
+    - generic [ref=e415]:
+      - generic [ref=e416]:
+        - generic [ref=e417]: "0"
+        - generic [ref=e418]: 已创作
+      - generic [ref=e419]:
+        - generic [ref=e420]: "2"
+        - generic [ref=e421]: 持有中
+      - generic [ref=e422]:
+        - generic [ref=e423]: "0"
+        - generic [ref=e424]: 交易额 (积分)
+    - generic [ref=e425]:
+      - button "我创作的" [ref=e426] [cursor=pointer]
+      - button "我持有的" [active] [ref=e427] [cursor=pointer]
+      - button "交易记录" [ref=e428] [cursor=pointer]
+    - generic [ref=e433]:
+      - generic [ref=e434] [cursor=pointer]:
+        - img "测试NFT作品" [ref=e436]
+        - generic [ref=e437]:
+          - heading "测试NFT作品" [level=3] [ref=e438]
+          - paragraph [ref=e439]: 这是一个用于测试铸造流程的NFT作品
+          - generic [ref=e440]:
+            - generic [ref=e441]: Art
+            - generic [ref=e442]: 版本：1
+          - generic [ref=e443]:
+            - generic [ref=e444]: "ID: 1776844672776"
+            - generic [ref=e445]: 版税：5.00%
+          - button "查看详情" [ref=e446]
+          - button "出售" [ref=e447]
+      - generic [ref=e448] [cursor=pointer]:
+        - generic [ref=e450]: 🎨
+        - generic [ref=e451]:
+          - heading "测试" [level=3] [ref=e452]
+          - paragraph
+          - generic [ref=e453]:
+            - generic [ref=e454]: Art
+            - generic [ref=e455]: 版本：1
+          - generic [ref=e456]:
+            - generic [ref=e457]: "ID: 1775024753175"
+            - generic [ref=e458]: 版税：5.00%
+          - button "查看详情" [ref=e459]
+          - button "出售" [ref=e460]

@@ -1,0 +1,46 @@
+@startuml 3-07-fantoken-stake-reward-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #FFF2CC
+
+title 图3-7 粉丝代币质押奖励流程图
+
+start
+
+:用户选择持有的粉丝代币;
+
+if (操作类型?) then (质押)
+  if (余额充足?) then (是)
+    :冻结质押数量;
+    :质押成功;
+  else (否)
+    :余额不足;
+    stop
+  endif
+
+elseif (解除质押) then (解除质押)
+  if (质押数量充足?) then (是)
+    :领取累计奖励;
+    :解冻返还余额;
+    :解除质押成功;
+  else (否)
+    :质押数量不足;
+    stop
+  endif
+
+else (领取奖励)
+  :按质押时长计算奖励;
+  if (有可领奖励?) then (是)
+    :发放奖励至余额;
+    :领取成功;
+  else (否)
+    :暂无可领奖励;
+    stop
+  endif
+
+endif
+
+stop
+
+@enduml

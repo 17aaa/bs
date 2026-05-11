@@ -1,0 +1,51 @@
+[      76ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[      82ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[      82ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     386ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[     386ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     387ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[     387ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     387ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[     387ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[     473ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/minio/nft-assets/nft-assets/1775024746656_f6a33afbeb6f4405a8adb9e67e917967.png:0
+[     473ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/minio/nft-assets/nft-assets/1775024689141_86af619d53a04409b5733228182f0a06.docx:0
+[   22689ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[   22692ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   22692ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   22996ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   22996ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   22996ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   22997ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   22997ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   22997ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   23031ms] [WARNING] styled-components: it looks like an unknown prop "status" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[   59624ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[   59627ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   59627ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   59935ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   59935ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   59936ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   59936ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   59937ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   59937ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   59966ms] [WARNING] styled-components: it looks like an unknown prop "status" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[   89906ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[   89909ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   89910ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   90213ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   90214ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   90214ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[   90215ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[   90215ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   90215ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[   90245ms] [WARNING] styled-components: it looks like an unknown prop "status" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509
+[  112421ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[  112424ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  112424ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  112730ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[  112731ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  112732ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:68
+[  112732ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  112732ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[  112732ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx?t=1776557667758:76
+[  112763ms] [WARNING] styled-components: it looks like an unknown prop "status" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:3000/@vite/client:509

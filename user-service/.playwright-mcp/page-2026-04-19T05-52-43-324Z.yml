@@ -1,0 +1,182 @@
+- generic [ref=e2]:
+  - generic [ref=e28]:
+    - generic [ref=e29]: ✓
+    - generic [ref=e30]: 登录成功！
+    - button "×" [ref=e31] [cursor=pointer]
+  - generic [ref=e32]:
+    - banner [ref=e33]:
+      - heading "CreativeNFT" [level=1] [ref=e34] [cursor=pointer]
+      - navigation [ref=e35]:
+        - generic [ref=e36] [cursor=pointer]: 首页
+        - generic [ref=e37] [cursor=pointer]: 市场
+        - generic [ref=e38] [cursor=pointer]: 创作
+        - generic [ref=e39] [cursor=pointer]: 代币
+        - generic [ref=e40] [cursor=pointer]: 我的
+        - generic [ref=e41]:
+          - button "🔔" [ref=e43] [cursor=pointer]
+          - button "退出" [ref=e44] [cursor=pointer]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Amoy
+            - generic [ref=e47]: 0x9f22...6ef6
+    - generic [ref=e48]:
+      - heading "学生创意成果 NFT 交易平台" [level=1] [ref=e49]
+      - paragraph [ref=e50]: 将你的创意作品铸造为 NFT，实现链上确权与交易
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: 🎨
+          - generic [ref=e54]: 创意作品
+        - generic [ref=e55]:
+          - generic [ref=e56]: 🔗
+          - generic [ref=e57]: 区块链确权
+        - generic [ref=e58]:
+          - generic [ref=e59]: 💰
+          - generic [ref=e60]: 便捷交易
+    - main [ref=e61]:
+      - heading "最新 NFT" [level=2] [ref=e62]
+      - button "🔄 刷新" [ref=e63] [cursor=pointer]
+      - generic [ref=e65]:
+        - generic [ref=e66] [cursor=pointer]:
+          - generic [ref=e68]: 🎨
+          - generic [ref=e69]:
+            - heading "测试" [level=3] [ref=e70]
+            - paragraph
+            - generic [ref=e71]:
+              - generic [ref=e72]: Art
+              - generic [ref=e73]: 版本：1
+            - generic [ref=e74]:
+              - generic [ref=e75]: "ID: 1775024753175"
+              - generic [ref=e76]: 版税：5.00%
+            - button "查看详情" [ref=e77]
+        - generic [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: 🎨
+          - generic [ref=e81]:
+            - heading "测试" [level=3] [ref=e82]
+            - paragraph
+            - generic [ref=e83]:
+              - generic [ref=e84]: Design
+              - generic [ref=e85]: 版本：1
+            - generic [ref=e86]:
+              - generic [ref=e87]: "ID: 1775024703201"
+              - generic [ref=e88]: 版税：5.00%
+            - button "查看详情" [ref=e89]
+        - generic [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: 🎨
+          - generic [ref=e93]:
+            - heading "111" [level=3] [ref=e94]
+            - paragraph [ref=e95]: "11111"
+            - generic [ref=e96]:
+              - generic [ref=e97]: Art
+              - generic [ref=e98]: 版本：1
+            - generic [ref=e99]:
+              - generic [ref=e100]: "ID: 1775021245459"
+              - generic [ref=e101]: 版税：5.00%
+            - button "查看详情" [ref=e102]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e105]: 🎨
+          - generic [ref=e106]:
+            - heading "minio测试" [level=3] [ref=e107]
+            - paragraph
+            - generic [ref=e108]:
+              - generic [ref=e109]: Art
+              - generic [ref=e110]: 版本：1
+            - generic [ref=e111]:
+              - generic [ref=e112]: "ID: 1775019176974"
+              - generic [ref=e113]: 版税：5.00%
+            - button "查看详情" [ref=e114]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]: 🎨
+          - generic [ref=e118]:
+            - heading "111" [level=3] [ref=e119]
+            - paragraph [ref=e120]: "1111"
+            - generic [ref=e121]:
+              - generic [ref=e122]: Art
+              - generic [ref=e123]: 版本：1
+            - generic [ref=e124]:
+              - generic [ref=e125]: "ID: 1774863077243"
+              - generic [ref=e126]: 版税：5.00%
+            - button "查看详情" [ref=e127]
+        - generic [ref=e128] [cursor=pointer]:
+          - generic [ref=e130]: 🎨
+          - generic [ref=e131]:
+            - heading "审核测试NFT" [level=3] [ref=e132]
+            - paragraph [ref=e133]: 测试审核功能
+            - generic [ref=e134]:
+              - generic [ref=e135]: Art
+              - generic [ref=e136]: 版本：1
+            - generic [ref=e137]:
+              - generic [ref=e138]: "ID: 1774848895307"
+              - generic [ref=e139]: 版税：5.00%
+            - button "查看详情" [ref=e140]
+        - generic [ref=e141] [cursor=pointer]:
+          - generic [ref=e143]: 🎨
+          - generic [ref=e144]:
+            - heading "失败测试NFT" [level=3] [ref=e145]
+            - paragraph [ref=e146]: 测试失败重试
+            - generic [ref=e147]:
+              - generic [ref=e148]: Art
+              - generic [ref=e149]: 版本：1
+            - generic [ref=e150]:
+              - generic [ref=e151]: "ID: 1774847733984"
+              - generic [ref=e152]: 版税：5.00%
+            - button "查看详情" [ref=e153]
+        - generic [ref=e154] [cursor=pointer]:
+          - generic [ref=e156]: 🎨
+          - generic [ref=e157]:
+            - heading "回滚测试NFT" [level=3] [ref=e158]
+            - paragraph [ref=e159]: 测试回滚功能
+            - generic [ref=e160]:
+              - generic [ref=e161]: Art
+              - generic [ref=e162]: 版本：1
+            - generic [ref=e163]:
+              - generic [ref=e164]: "ID: 1774847695173"
+              - generic [ref=e165]: 版税：5.00%
+            - button "查看详情" [ref=e166]
+        - generic [ref=e167] [cursor=pointer]:
+          - generic [ref=e169]: 🎨
+          - generic [ref=e170]:
+            - heading "测试NFT作品" [level=3] [ref=e171]
+            - paragraph [ref=e172]: 这是一个测试NFT
+            - generic [ref=e173]:
+              - generic [ref=e174]: Art
+              - generic [ref=e175]: 版本：1
+            - generic [ref=e176]:
+              - generic [ref=e177]: "ID: 1774847551061"
+              - generic [ref=e178]: 版税：5.00%
+            - button "查看详情" [ref=e179]
+        - generic [ref=e180] [cursor=pointer]:
+          - generic [ref=e182]: 🎨
+          - generic [ref=e183]:
+            - heading "GEO" [level=3] [ref=e184]
+            - paragraph [ref=e185]: geo
+            - generic [ref=e186]:
+              - generic [ref=e187]: Art
+              - generic [ref=e188]: 版本：1
+            - generic [ref=e189]:
+              - generic [ref=e190]: "ID: 1774260967022"
+              - generic [ref=e191]: 版税：5.00%
+            - button "查看详情" [ref=e192]
+        - generic [ref=e193] [cursor=pointer]:
+          - generic [ref=e195]: 🎨
+          - generic [ref=e196]:
+            - heading "GEO" [level=3] [ref=e197]
+            - paragraph
+            - generic [ref=e198]:
+              - generic [ref=e199]: Art
+              - generic [ref=e200]: 版本：1
+            - generic [ref=e201]:
+              - generic [ref=e202]: "ID: 1774260950830"
+              - generic [ref=e203]: 版税：5.00%
+            - button "查看详情" [ref=e204]
+        - generic [ref=e205] [cursor=pointer]:
+          - generic [ref=e207]: 🎨
+          - generic [ref=e208]:
+            - heading "智能" [level=3] [ref=e209]
+            - paragraph [ref=e210]: "1"
+            - generic [ref=e211]:
+              - generic [ref=e212]: Art
+              - generic [ref=e213]: 版本：1
+            - generic [ref=e214]:
+              - generic [ref=e215]: "ID: 1774251269862"
+              - generic [ref=e216]: 版税：5.00%
+            - button "查看详情" [ref=e217]
+    - button "+" [ref=e218] [cursor=pointer]

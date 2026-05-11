@@ -1,0 +1,48 @@
+@startuml 3-13-nft-mint-sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam sequenceParticipantBorderColor #82B366
+skinparam sequenceParticipantBackgroundColor #D5E8D4
+skinparam sequenceLifeLineBorderColor #999999
+skinparam participantPadding 20
+skinparam messageSpacing 30
+
+
+
+actor "用户" as User
+participant "前端" as FE
+participant "后端" as BE
+participant "MinIO" as MinIO
+participant "IPFS" as IPFS
+participant "智能合约\n(Polygon)" as Contract
+database "MySQL" as DB
+
+== 创建铸造任务 ==
+
+User -> FE : 填写作品信息并上传
+FE -> BE : 提交铸造请求
+BE -> MinIO : 上传作品文件
+BE -> DB : 创建铸造任务
+BE --> FE : 返回任务ID
+
+== 异步执行：元数据生成与链上铸造 ==
+
+BE -> MinIO : 读取作品文件
+BE -> IPFS : 上传图片和元数据
+BE -> Contract : 调用mint方法
+Contract --> BE : 返回交易哈希
+BE -> DB : 保存NFT资产和版本记录
+BE -> DB : 更新任务为已完成
+BE -> DB : 自动提交NFT审核
+
+== 前端轮询进度 ==
+
+loop 轮询
+    FE -> BE : 查询任务进度
+    BE --> FE : 返回进度信息
+end
+
+FE -> FE : 铸造完成，跳转详情页
+
+@enduml

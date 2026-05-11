@@ -1,0 +1,52 @@
+@startuml 3-14-market-trade-sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam sequenceParticipantBorderColor #D6B656
+skinparam sequenceParticipantBackgroundColor #FFF2CC
+skinparam sequenceLifeLineBorderColor #999999
+skinparam participantPadding 20
+skinparam messageSpacing 30
+
+
+
+actor "用户" as User
+participant "前端" as FE
+participant "后端" as BE
+database "MySQL" as DB
+
+== 上架NFT ==
+
+User -> FE : 选择NFT上架
+FE -> BE : 创建订单
+BE -> DB : 校验NFT所有权
+BE -> DB : 创建交易订单
+BE --> FE : 返回订单ID
+
+== 浏览与购买 ==
+
+User -> FE : 浏览市场列表
+FE -> BE : 查询订单列表
+BE --> FE : 返回订单列表
+
+User -> FE : 点击购买
+FE -> BE : 提交购买请求
+BE -> BE : 校验购买条件
+
+alt 固定价格
+    BE -> BE : 按标价结算
+else 荷兰拍卖
+    BE -> BE : 按当前递减价格结算
+end
+
+== 平台积分结算 ==
+
+BE -> DB : 扣减买家积分
+BE -> DB : 增加卖家积分
+BE -> DB : 分配版税给创作者
+BE -> DB : 更新订单和NFT状态
+BE -> DB : 记录交易通知
+BE --> FE : 购买成功
+FE -> User : 显示购买结果
+
+@enduml

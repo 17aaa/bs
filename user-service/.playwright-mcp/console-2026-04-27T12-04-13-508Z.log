@@ -1,0 +1,135 @@
+[   17086ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://secure.statcounter.com/counter/counter.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:886
+[   17087ms] [WARNING] A parser-blocking, cross site (i.e. different eTLD+1) script, https://secure.statcounter.com/counter/counter.js, is invoked via document.write. The network request for this script MAY be blocked by the browser in this or a future page load due to poor network connectivity. If blocked in this page load, it will be confirmed in a subsequent console message. See https://www.chromestatus.com/feature/5718547946799104 for more details. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:886
+[   29257ms] TypeError: Cannot read properties of undefined (reading 'Add')
+    at ezdent.Denty.addPageviewPixel (https://www.plantuml.com/porpoiseant/jellyfish.js?a=a&cb=21&dcb=195-5&shcb=34:76:10)
+    at https://www.plantuml.com/porpoiseant/jellyfish.js?a=a&cb=21&dcb=195-5&shcb=34:71:581
+    at FastDOM.runTasks (https://www.plantuml.com/porpoiseant/jellyfish.js?a=a&cb=21&dcb=195-5&shcb=34:2:116)
+    at flush (https://www.plantuml.com/porpoiseant/jellyfish.js?a=a&cb=21&dcb=195-5&shcb=34:3:145)
+[   35704ms] [ERROR] Attestation check for Protected Audience on https://htlb.casalemedia.com failed. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   35704ms] [ERROR] Attestation check for Protected Audience on https://ex.ingage.tech failed. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   35704ms] [ERROR] Attestation check for Protected Audience on https://tlx.3lift.com failed. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   35704ms] [ERROR] Attestation check for Protected Audience on https://direct.adsrvr.org failed. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   35704ms] [ERROR] Attestation check for Protected Audience on https://hbopenbid.pubmatic.com failed. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37360ms] [ERROR] Access to fetch at 'https://id5-sync.com/bounce' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37360ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/bounce:0
+[   37360ms] [ERROR] Access to fetch at 'https://id5-sync.com/api/config/prebid' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37360ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/api/config/prebid:0
+[   37360ms] [ERROR] Access to fetch at 'https://id5-sync.com/api/config/prebid' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37360ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/api/config/prebid:0
+[   37360ms] [ERROR] Access to fetch at 'https://lb.eu-1-id5-sync.com/lb/v1' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37360ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://lb.eu-1-id5-sync.com/lb/v1:0
+[   37370ms] Uncaught (in promise) TypeError: Failed to fetch
+    at o (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:93692)
+    at #e (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:4444)
+    at execute (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:3577)
+    at callback (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:2601)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:4458)
+    at z (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:4366)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16232)
+    at l (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:355)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16220)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:15903)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:100484)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16411)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:17369)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:90380)
+    at v (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:90366)
+    at b (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:89969)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:140273)
+    at value (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:29772)
+    at value (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:49985)
+    at value (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:49494)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:137320)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:942)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:147147)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:590)
+    at l (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:355)
+    at then (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:429)
+    at Oe (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:147107)
+    at value (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:137282)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:128608)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:942)
+    at value (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:128671)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:328143)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:328161)
+[   37371ms] Uncaught (in promise) TypeError: Failed to fetch
+    at o (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:93692)
+    at #e (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:4444)
+    at execute (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:3577)
+    at callback (https://go.ezodn.com/hb/dall.js?cb=195-5-158:90:2601)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:4458)
+    at z (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:4366)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16682)
+    at l (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:355)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16670)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:15903)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:590)
+    at l (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:355)
+    at then (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:429)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:283)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:590)
+    at l (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:355)
+    at then (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:429)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:283)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:575)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:976)
+    at c (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:790)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:901)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at r (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:540)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:13:346)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:100484)
+    at a (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:15746)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:16515)
+    at me (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:9564)
+    at be (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:9827)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:144:15090)
+    at <anonymous> (https://go.ezodn.com/hb/dall.js?cb=195-5-158:11:140273)
+    at m (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:7952)
+    at <anonymous> (https://www.plantuml.com/detroitchicago/portland.js?gcb=5&cb=dbd2591dc3:1:7146)
+[   37787ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://eb2.3lift.com/topics/topics_frame.html?bidder=triplelift:0
+[   37792ms] [ERROR] Access to fetch at 'https://id.hadron.ad.gt/api/v1/pbhid?partner_id=524&_it=prebid&t=1&src=id&domain=www.plantuml.com&gdpr=0' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   37792ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id.hadron.ad.gt/api/v1/pbhid?partner_id=524&_it=prebid&t=1&src=id&domain=www.plantuml.com&gdpr=0:0
+[   37794ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://btlr.sharethrough.com/topics/topics_frame.html?bidder=sharethrough:0
+[   38054ms] [ERROR] Access to XMLHttpRequest at 'https://id5-sync.com/gm/v3' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   38055ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id5-sync.com/gm/v3:0
+[   38109ms] [ERROR] Access to fetch at 'https://id.hadron.ad.gt/api/v1/pbhid?partner_id=524&_it=prebid&t=1&src=id&domain=www.plantuml.com&gdpr=0' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   38109ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://id.hadron.ad.gt/api/v1/pbhid?partner_id=524&_it=prebid&t=1&src=id&domain=www.plantuml.com&gdpr=0:0
+[   38144ms] [ERROR] Access to fetch at 'https://ups.analytics.yahoo.com/ups/58713/fed?v=1&1p=0&gdpr=0&gdpr_consent=&us_privacy=&url=https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001&pixelId=58713' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   38144ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ups.analytics.yahoo.com/ups/58713/fed?v=1&1p=0&gdpr=0&gdpr_consent=&us_privacy=&url=https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001&pixelId=58713:0
+[   38646ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[   38651ms] [ERROR] Mixed Content: The page at 'https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001' was loaded over HTTPS, but requested an insecure frame 'http://www.optmd.com/'. This request has been blocked; the content must be served over HTTPS. @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[   38718ms] [LOG] Called iframe: ads.pubmatic.com [] 
+Number of topics:  0 @ https://ads.pubmatic.com/AdServer/js/topics/topics_frame.html?bidder=pubmatic:19
+[   39444ms] [ERROR] Access to fetch at 'https://ups.analytics.yahoo.com/ups/58713/fed?v=1&1p=0&gdpr=0&gdpr_consent=&us_privacy=&url=https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001&pixelId=58713' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   39444ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ups.analytics.yahoo.com/ups/58713/fed?v=1&1p=0&gdpr=0&gdpr_consent=&us_privacy=&url=https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001&pixelId=58713:0
+[   40144ms] [LOG] Called iframe: acdn.adnxs.com [] 
+Number of topics:  0 @ https://acdn.adnxs.com/prebid/topics/topics_frame.html?bidder=appnexus:17
+[   40993ms] [LOG] Called iframe: onetag-sys.com [] 
+Number of topics:  0 @ https://onetag-sys.com/static/topicsapi.html?bidder=onetag:13
+[   38646ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[   38651ms] [ERROR] Mixed Content: The page at 'https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001' was loaded over HTTPS, but requested an insecure frame 'http://www.optmd.com/'. This request has been blocked; the content must be served over HTTPS. @ https://js-sec.indexww.com/prebid/topics/topics_frame.html?bidder=ix:0
+[   37787ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://eb2.3lift.com/topics/topics_frame.html?bidder=triplelift:0
+[   43933ms] [ERROR] Access to fetch at 'https://ex.ingage.tech/v1/openrtb' from origin 'https://www.plantuml.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa700001:0
+[   43933ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://ex.ingage.tech/v1/openrtb:0

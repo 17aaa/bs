@@ -1,0 +1,59 @@
+@startuml 3-02-user-usecase
+!theme plain
+skinparam backgroundColor white
+skinparam actorStyle awesome
+skinparam usecase {
+    BackgroundColor #E8F4FD
+    BorderColor #333333
+}
+
+title 图3-2 用户用例图
+
+left to right direction
+
+actor "用户" as user
+
+usecase "身份认证" as UC1
+usecase "MetaMask签名" as UC2
+usecase "服务端钱包" as UC3
+usecase "钱包绑定" as UC4
+
+usecase "市场交易" as UC5
+usecase "浏览市场" as UC6
+usecase "购买NFT" as UC7
+usecase "积分结算" as UC8
+usecase "参与代币公募" as UC9
+
+usecase "粉丝代币" as UC10
+usecase "质押代币" as UC11
+usecase "解除质押" as UC12
+usecase "领取奖励" as UC13
+
+usecase "个人中心" as UC14
+usecase "查看我的NFT" as UC15
+usecase "查看通知消息" as UC16
+usecase "修改个人资料" as UC17
+
+user -- UC1
+user -- UC5
+user -- UC10
+user -- UC14
+
+UC2 .> UC1 : <<extend>>
+UC3 .> UC1 : <<extend>>
+UC1 ..> UC4 : <<include>>
+
+UC5 ..> UC6 : <<include>>
+UC7 .> UC5 : <<extend>>
+UC7 ..> UC8 : <<include>>
+UC9 .> UC5 : <<extend>>
+
+UC11 .> UC10 : <<extend>>
+UC12 .> UC10 : <<extend>>
+UC12 ..> UC13 : <<include>>
+
+UC15 .> UC14 : <<extend>>
+UC16 .> UC14 : <<extend>>
+UC17 .> UC14 : <<extend>>
+
+@enduml

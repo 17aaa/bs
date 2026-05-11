@@ -1,0 +1,186 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]: NFT 管理后台
+    - generic [ref=e6]:
+      - generic [ref=e7]: 概览
+      - link "📊 仪表盘" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e9]: 📊
+        - text: 仪表盘
+    - generic [ref=e10]:
+      - generic [ref=e11]: 管理
+      - link "👥 用户管理" [ref=e12] [cursor=pointer]:
+        - /url: /users
+        - generic [ref=e13]: 👥
+        - text: 用户管理
+      - link "🎨 NFT 管理" [ref=e14] [cursor=pointer]:
+        - /url: /nfts
+        - generic [ref=e15]: 🎨
+        - text: NFT 管理
+      - link "💰 交易管理" [ref=e16] [cursor=pointer]:
+        - /url: /orders
+        - generic [ref=e17]: 💰
+        - text: 交易管理
+      - link "🪙 粉丝代币" [ref=e18] [cursor=pointer]:
+        - /url: /fan-tokens
+        - generic [ref=e19]: 🪙
+        - text: 粉丝代币
+    - generic [ref=e20]:
+      - generic [ref=e21]: 系统
+      - link "⚙️ 管理员" [ref=e22] [cursor=pointer]:
+        - /url: /settings/admins
+        - generic [ref=e23]: ⚙️
+        - text: 管理员
+  - banner [ref=e24]:
+    - heading "仪表盘" [level=1] [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27]: 超级管理员
+      - generic [ref=e28]: admin
+      - button "退出登录" [ref=e29] [cursor=pointer]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: 总订单数
+          - generic [ref=e35]: "13"
+        - generic [ref=e36]:
+          - generic [ref=e37]: 已完成
+          - generic [ref=e38]: "7"
+        - generic [ref=e39]:
+          - generic [ref=e40]: 活跃订单
+          - generic [ref=e41]: "6"
+        - generic [ref=e42]:
+          - generic [ref=e43]: 总交易额
+          - generic [ref=e44]: 3.0040 积分
+      - generic [ref=e45]:
+        - textbox "搜索订单 ID..." [ref=e47]
+        - combobox [ref=e48] [cursor=pointer]:
+          - option "全部状态" [selected]
+          - option "活跃"
+          - option "已售"
+          - option "取消"
+          - option "过期"
+        - combobox [ref=e49] [cursor=pointer]:
+          - option "全部类型" [selected]
+          - option "固定价格"
+          - option "荷兰拍卖"
+          - option "报价"
+        - button "搜索" [ref=e50] [cursor=pointer]
+      - table [ref=e52]:
+        - rowgroup [ref=e53]:
+          - row "ID NFT 名称 类型 状态 挂单价 成交价 时间 操作" [ref=e54]:
+            - columnheader "ID" [ref=e55]
+            - columnheader "NFT 名称" [ref=e56]
+            - columnheader "类型" [ref=e57]
+            - columnheader "状态" [ref=e58]
+            - columnheader "挂单价" [ref=e59]
+            - columnheader "成交价" [ref=e60]
+            - columnheader "时间" [ref=e61]
+            - columnheader "操作" [ref=e62]
+        - rowgroup [ref=e63]:
+          - row "13 测试 固定价格 已售 1.0000 积分 1.0000 积分 2026/4/22 详情" [ref=e64]:
+            - cell "13" [ref=e65]
+            - cell "测试" [ref=e66]
+            - cell "固定价格" [ref=e67]
+            - cell "已售" [ref=e68]
+            - cell "1.0000 积分" [ref=e69]
+            - cell "1.0000 积分" [ref=e70]
+            - cell "2026/4/22" [ref=e71]
+            - cell "详情" [ref=e72]:
+              - button "详情" [ref=e73] [cursor=pointer]
+          - row "12 荷兰拍卖 活跃 5.0000 积分 - 2026/4/22 详情" [ref=e74]:
+            - cell "12" [ref=e75]
+            - cell [ref=e76]
+            - cell "荷兰拍卖" [ref=e77]
+            - cell "活跃" [ref=e78]
+            - cell "5.0000 积分" [ref=e79]
+            - cell "-" [ref=e80]
+            - cell "2026/4/22" [ref=e81]
+            - cell "详情" [ref=e82]:
+              - button "详情" [ref=e83] [cursor=pointer]
+          - row "11 测试NFT作品 固定价格 活跃 2.0000 积分 - 2026/4/22 详情" [ref=e84]:
+            - cell "11" [ref=e85]
+            - cell "测试NFT作品" [ref=e86]
+            - cell "固定价格" [ref=e87]
+            - cell "活跃" [ref=e88]
+            - cell "2.0000 积分" [ref=e89]
+            - cell "-" [ref=e90]
+            - cell "2026/4/22" [ref=e91]
+            - cell "详情" [ref=e92]:
+              - button "详情" [ref=e93] [cursor=pointer]
+          - row "10 测试NFT作品 固定价格 已售 1.0000 积分 1.0000 积分 2026/4/22 详情" [ref=e94]:
+            - cell "10" [ref=e95]
+            - cell "测试NFT作品" [ref=e96]
+            - cell "固定价格" [ref=e97]
+            - cell "已售" [ref=e98]
+            - cell "1.0000 积分" [ref=e99]
+            - cell "1.0000 积分" [ref=e100]
+            - cell "2026/4/22" [ref=e101]
+            - cell "详情" [ref=e102]:
+              - button "详情" [ref=e103] [cursor=pointer]
+          - row "9 测试111 固定价格 已售 0.0010 积分 0.0010 积分 2026/3/31 详情" [ref=e104]:
+            - cell "9" [ref=e105]
+            - cell "测试111" [ref=e106]
+            - cell "固定价格" [ref=e107]
+            - cell "已售" [ref=e108]
+            - cell "0.0010 积分" [ref=e109]
+            - cell "0.0010 积分" [ref=e110]
+            - cell "2026/3/31" [ref=e111]
+            - cell "详情" [ref=e112]:
+              - button "详情" [ref=e113] [cursor=pointer]
+          - row "8 测试111 固定价格 已售 0.0010 积分 0.0010 积分 2026/3/31 详情" [ref=e114]:
+            - cell "8" [ref=e115]
+            - cell "测试111" [ref=e116]
+            - cell "固定价格" [ref=e117]
+            - cell "已售" [ref=e118]
+            - cell "0.0010 积分" [ref=e119]
+            - cell "0.0010 积分" [ref=e120]
+            - cell "2026/3/31" [ref=e121]
+            - cell "详情" [ref=e122]:
+              - button "详情" [ref=e123] [cursor=pointer]
+          - row "7 海豚测试 固定价格 已售 0.0010 积分 0.0010 积分 2026/3/31 详情" [ref=e124]:
+            - cell "7" [ref=e125]
+            - cell "海豚测试" [ref=e126]
+            - cell "固定价格" [ref=e127]
+            - cell "已售" [ref=e128]
+            - cell "0.0010 积分" [ref=e129]
+            - cell "0.0010 积分" [ref=e130]
+            - cell "2026/3/31" [ref=e131]
+            - cell "详情" [ref=e132]:
+              - button "详情" [ref=e133] [cursor=pointer]
+          - row "6 GEO 固定价格 已售 0.0010 积分 0.0010 积分 2026/3/31 详情" [ref=e134]:
+            - cell "6" [ref=e135]
+            - cell "GEO" [ref=e136]
+            - cell "固定价格" [ref=e137]
+            - cell "已售" [ref=e138]
+            - cell "0.0010 积分" [ref=e139]
+            - cell "0.0010 积分" [ref=e140]
+            - cell "2026/3/31" [ref=e141]
+            - cell "详情" [ref=e142]:
+              - button "详情" [ref=e143] [cursor=pointer]
+          - row "5 GEO 固定价格 活跃 0.0010 积分 - 2026/3/31 详情" [ref=e144]:
+            - cell "5" [ref=e145]
+            - cell "GEO" [ref=e146]
+            - cell "固定价格" [ref=e147]
+            - cell "活跃" [ref=e148]
+            - cell "0.0010 积分" [ref=e149]
+            - cell "-" [ref=e150]
+            - cell "2026/3/31" [ref=e151]
+            - cell "详情" [ref=e152]:
+              - button "详情" [ref=e153] [cursor=pointer]
+          - row "4 GEO 固定价格 活跃 0.0010 积分 - 2026/3/31 详情" [ref=e154]:
+            - cell "4" [ref=e155]
+            - cell "GEO" [ref=e156]
+            - cell "固定价格" [ref=e157]
+            - cell "活跃" [ref=e158]
+            - cell "0.0010 积分" [ref=e159]
+            - cell "-" [ref=e160]
+            - cell "2026/3/31" [ref=e161]
+            - cell "详情" [ref=e162]:
+              - button "详情" [ref=e163] [cursor=pointer]
+      - generic [ref=e164]:
+        - button "上一页" [disabled] [ref=e165]
+        - button "1" [ref=e166] [cursor=pointer]
+        - button "2" [ref=e167] [cursor=pointer]
+        - button "下一页" [ref=e168] [cursor=pointer]
+        - generic [ref=e169]: 共 13 条

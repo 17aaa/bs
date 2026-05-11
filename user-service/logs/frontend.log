@@ -1,0 +1,208 @@
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v8.0.1  ready in 304 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+3:55:24 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "active" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+3:55:24 PM [vite] (client) [console.error] Received `true` for a non-boolean attribute `active`.
+
+If you want to write it to the DOM, pass a string instead: active="true" or active={value.toString()}.
+3:55:24 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "mock" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+3:55:24 PM [vite] (client) [console.error] Received `false` for a non-boolean attribute `mock`.
+
+If you want to write it to the DOM, pass a string instead: mock="false" or mock={value.toString()}.
+
+If you used to conditionally omit it with mock={condition && value}, pass mock={condition ? value : undefined} instead.
+3:55:24 PM [vite] (client) [console.error] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21)
+3:55:24 PM [vite] (client) [console.error] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21)
+3:55:24 PM [vite] (client) [console.error] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21)
+3:55:24 PM [vite] (client) [console.error] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21)
+3:55:24 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "primary" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+3:55:24 PM [vite] (client) [console.error] Received `true` for a non-boolean attribute `primary`.
+
+If you want to write it to the DOM, pass a string instead: primary="true" or primary={value.toString()}.
+3:56:20 PM [vite] (client) [console.error] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21)
+3:56:20 PM [vite] (client) [console.error] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21)
+3:56:20 PM [vite] (client) [console.error] 加载用户信息失败: Error: 获取用户信息失败
+    at api.interceptors.response.use.originalRequest (http://localhost:3000/src/services/api.js:32:25)
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js:259:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx:437:22)
+3:56:20 PM [vite] (client) [console.error] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21)
+3:56:20 PM [vite] (client) [console.error] 加载用户信息失败: Error: 获取用户信息失败
+    at api.interceptors.response.use.originalRequest (http://localhost:3000/src/services/api.js:32:25)
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js:259:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx:437:22)
+3:56:20 PM [vite] (client) [console.error] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21)
+4:36:06 PM [vite] (client) hmr update /src/pages/HomePage.jsx, /src/pages/MarketPage.jsx, /src/pages/ProfilePage.jsx
+4:56:23 PM [vite] (client) hmr update /src/pages/HomePage.jsx, /src/pages/MarketPage.jsx, /src/pages/ProfilePage.jsx
+4:57:08 PM [vite] (client) hmr update /src/pages/HomePage.jsx, /src/pages/MarketPage.jsx, /src/pages/ProfilePage.jsx
+5:48:04 PM [vite] (client) hmr update /src/App.jsx
+5:48:14 PM [vite] (client) hmr update /src/App.jsx
+5:48:20 PM [vite] (client) hmr update /src/components/Header.jsx
+5:49:40 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+5:49:53 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+5:50:12 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+5:50:38 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+5:50:51 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+5:51:58 PM [vite] (client) hmr update /src/components/NFTCard.jsx
+5:52:17 PM [vite] (client) hmr update /src/components/NFTCard.jsx
+6:05:36 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "active" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+6:05:36 PM [vite] (client) [console.error] Received `false` for a non-boolean attribute `active`.
+
+If you want to write it to the DOM, pass a string instead: active="false" or active={value.toString()}.
+
+If you used to conditionally omit it with active={condition && value}, pass active={condition ? value : undefined} instead.
+6:05:36 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "mock" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+6:05:36 PM [vite] (client) [console.error] Received `false` for a non-boolean attribute `mock`.
+
+If you want to write it to the DOM, pass a string instead: mock="false" or mock={value.toString()}.
+
+If you used to conditionally omit it with mock={condition && value}, pass mock={condition ? value : undefined} instead.
+6:05:36 PM [vite] (client) [console.error] Unsupported style property -webkit-background-clip. Did you mean WebkitBackgroundClip?
+6:05:36 PM [vite] (client) [console.error] Unsupported style property -webkit-text-fill-color. Did you mean WebkitTextFillColor?
+6:05:36 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "status" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+6:05:37 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "primary" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+6:05:37 PM [vite] (client) [console.error] Received `true` for a non-boolean attribute `primary`.
+
+If you want to write it to the DOM, pass a string instead: primary="true" or primary={value.toString()}.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:05:58 PM [vite] (client) [console.warn] styled-components: it looks like an unknown prop "dutch" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.)
+6:05:58 PM [vite] (client) [console.error] Received `false` for a non-boolean attribute `dutch`.
+
+If you want to write it to the DOM, pass a string instead: dutch="false" or dutch={value.toString()}.
+
+If you used to conditionally omit it with dutch={condition && value}, pass dutch={condition ? value : undefined} instead.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:05:58 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:04 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:04 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:04 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:05 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:05 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:06:05 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:11:13 PM [vite] (client) hmr update /src/pages/FanTokenPage.jsx
+6:11:56 PM [vite] (client) hmr update /src/pages/MarketPage.jsx
+6:12:26 PM [vite] (client) hmr update /src/pages/CreatePage.jsx
+6:12:45 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+6:13:04 PM [vite] (client) hmr update /src/pages/NFTDetailPage.jsx
+6:13:11 PM [vite] (client) hmr update /src/pages/FanTokenPage.jsx
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:14:54 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:00 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:19 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:20 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:20 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:20 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:22 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:15:45 PM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'toWei')
+ > handleListForSale src/pages/NFTDetailPage.jsx:559:34
+    557 |      }
+    558 |  
+    559 |      const priceInWei = web3.utils.toWei(price || calculateDutchPrice(), 'ether');
+        |                                    ^
+    560 |  
+    561 |      try {
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+6:15:47 PM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'toWei')
+ > handleListForSale src/pages/NFTDetailPage.jsx:559:34
+    557 |      }
+    558 |  
+    559 |      const priceInWei = web3.utils.toWei(price || calculateDutchPrice(), 'ether');
+        |                                    ^
+    560 |  
+    561 |      try {
+ > executeDispatch node_modules/react-dom/cjs/react-dom-client.development.js:19116:8
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:871:29
+ > processDispatchQueue node_modules/react-dom/cjs/react-dom-client.development.js:19166:18
+ > node_modules/react-dom/cjs/react-dom-client.development.js:19767:8
+ > batchedUpdates$1 node_modules/react-dom/cjs/react-dom-client.development.js:3255:39
+ > dispatchEventForPluginEventSystem node_modules/react-dom/cjs/react-dom-client.development.js:19320:6
+ > dispatchEvent node_modules/react-dom/cjs/react-dom-client.development.js:23585:10
+ > dispatchDiscreteEvent node_modules/react-dom/cjs/react-dom-client.development.js:23553:10
+
+6:15:52 PM [vite] (client) [console.error] 请求失败：429
+6:15:52 PM [vite] (client) [console.error] 请求失败：429
+6:15:52 PM [vite] (client) [console.error] 请求失败：429
+6:15:52 PM [vite] (client) [console.error] 请求失败：429
+6:15:53 PM [vite] (client) [console.error] 请求失败：429
+6:15:53 PM [vite] (client) [console.error] 请求失败：429
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `9`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+6:16:01 PM [vite] (client) [console.error] Encountered two children with the same key, `11`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.

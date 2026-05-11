@@ -1,0 +1,27 @@
+- generic [ref=e2]:
+  - img [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - text: 您正在访问高风险软件，可能造成数据泄漏，访问行为已被阻止。若您确认需要访问该网站，请点击
+      - link "报备申请" [ref=e6] [cursor=pointer]:
+        - /url: https://asop.alipay.com/mySafe/myReport/riskSoft/add?name=riskSoft.datasecurity.collaboratetools.draw
+      - text: ，审批通过后再次尝试访问。
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: 软件：
+        - generic [ref=e10]:
+          - img [ref=e11]
+          - text: 绘图软件
+      - generic [ref=e12]:
+        - generic [ref=e13]: 时间：
+        - generic [ref=e14]: 2026-04-27 22:18:37
+    - generic [ref=e15]:
+      - img [ref=e16]
+      - generic [ref=e17]:
+        - text: 安全Tips：如果使用外部云存储类/云笔记类/邮箱类软件/网站，所有数据均存于外部云存储服务器中，存在敏感信息泄漏的风险。高风险软件/网站清单可点击
+        - link "链接" [ref=e18] [cursor=pointer]:
+          - /url: https://security.antgroup-inc.cn/home/detail/167
+        - text: 查看，如有疑问或反馈请钉钉联系
+        - link "@蚂蚁数安超人" [ref=e19] [cursor=pointer]:
+          - /url: dingtalk://dingtalkclient/action/jumprobot?dingtalkid=%24%3ALWCP_v1%3A%24mrq7nZ1UAyqo2ut%2BW90E6nLVU4VVPjL%2B&content=%E5%92%A8%E8%AF%A2
+        - text: 进行咨询

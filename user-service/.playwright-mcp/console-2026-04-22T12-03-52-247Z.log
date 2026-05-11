@@ -1,0 +1,663 @@
+[     147ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     150ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     150ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     454ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     454ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     455ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     455ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     455ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     455ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1033416ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[ 1033425ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033425ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033732ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1033732ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033733ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1033733ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033736ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1033736ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033736ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1033736ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1033737ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1033738ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1033738ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1033738ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1035939ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1035940ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1035940ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1035941ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1035941ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1035941ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1037136ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1037136ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1037137ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1037137ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1037137ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1037137ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1038242ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1038242ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1038243ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1038243ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1038243ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1038243ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1045379ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1045379ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1045380ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1045380ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1045381ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1045381ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1048227ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1048227ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1048228ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1048228ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1048228ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1048228ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1057202ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[ 1057205ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1057205ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1057509ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1057509ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1057510ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1057510ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1057510ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1057510ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1057522ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1057522ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/24:0
+[ 1057522ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1057523ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1057524ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1057525ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1057525ms] [ERROR] 加载 NFT 详情失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftAsset (http://localhost:3000/src/services/api.js?t=1776853170875:116:20)
+    at async loadNFTDetails (http://localhost:3000/src/pages/NFTDetailPage.jsx?t=1776859732275:416:24) @ http://localhost:3000/@vite/client:509
+[ 1057526ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1057526ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1057538ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1057539ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1057539ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1057539ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1057539ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1057540ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1057540ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/24:0
+[ 1057540ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1057540ms] [ERROR] 加载 NFT 详情失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftAsset (http://localhost:3000/src/services/api.js?t=1776853170875:116:20)
+    at async loadNFTDetails (http://localhost:3000/src/pages/NFTDetailPage.jsx?t=1776859732275:416:24) @ http://localhost:3000/@vite/client:509
+[ 1059616ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1059616ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1059618ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1059618ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1059619ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1059619ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1059622ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1059622ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1059624ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1059624ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1059624ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1059624ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1059625ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/list?limit=12&offset=0:0
+[ 1059625ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1059625ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getAllNfts (http://localhost:3000/src/services/api.js?t=1776853170875:132:20)
+    at async loadNFTs (http://localhost:3000/src/pages/HomePage.jsx?t=1776859668069:167:21) @ http://localhost:3000/@vite/client:509
+[ 1059625ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1059633ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1059633ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1059633ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1059633ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1059633ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1059633ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/list?limit=12&offset=0:0
+[ 1059634ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1059634ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getAllNfts (http://localhost:3000/src/services/api.js?t=1776853170875:132:20)
+    at async loadNFTs (http://localhost:3000/src/pages/HomePage.jsx?t=1776859668069:167:21) @ http://localhost:3000/@vite/client:509
+[ 1061205ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1061206ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1061207ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1061207ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1061207ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1061207ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1061211ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1061211ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1061211ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1061211ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1061211ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1061211ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1061213ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1061213ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1061216ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1061217ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1061217ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1061217ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1061217ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1061217ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1061217ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1061217ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063256ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1063256ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1063256ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1063256ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1063257ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1063257ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1063257ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1063257ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1063258ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1063258ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1063258ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1063258ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1063261ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1063261ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1063261ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1063261ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1063263ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1063263ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063263ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063263ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063263ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1063264ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063265ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063265ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1063265ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1063266ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063266ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1063266ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1063267ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1063267ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063267ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1063268ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063269ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063269ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063269ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1063269ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063270ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063270ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063270ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1063271ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1063271ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1063271ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1063271ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1063271ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1064410ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1064411ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1064411ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1064411ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1064412ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1064412ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1064417ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1064417ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1064417ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1064417ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1064417ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1064417ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1064418ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1064418ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1064418ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1064418ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1064418ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1064418ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1065219ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1065219ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1065220ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1065220ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1065220ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1065220ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1065220ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1065221ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1065221ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1065221ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1065225ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1065225ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1065225ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1065225ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1065225ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1065225ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1065226ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/market/orders?status=1&page=1&size=100:0
+[ 1065226ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1065226ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getOrderList (http://localhost:3000/src/services/api.js?t=1776853170875:181:20)
+    at async loadNFTs (http://localhost:3000/src/pages/MarketPage.jsx?t=1776859695488:262:21) @ http://localhost:3000/@vite/client:509
+[ 1065226ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1065226ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1065226ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/market/orders?status=1&page=1&size=100:0
+[ 1065226ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1065226ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getOrderList (http://localhost:3000/src/services/api.js?t=1776853170875:181:20)
+    at async loadNFTs (http://localhost:3000/src/pages/MarketPage.jsx?t=1776859695488:262:21) @ http://localhost:3000/@vite/client:509
+[ 1066002ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1066002ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1066004ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1066004ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1066004ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1066004ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1066008ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1066008ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1066008ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1066009ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1066009ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1066009ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066010ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/list?limit=12&offset=0:0
+[ 1066010ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066010ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getAllNfts (http://localhost:3000/src/services/api.js?t=1776853170875:132:20)
+    at async loadNFTs (http://localhost:3000/src/pages/HomePage.jsx?t=1776859668069:167:21) @ http://localhost:3000/@vite/client:509
+[ 1066010ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1066013ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1066013ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1066013ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1066013ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1066013ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/list?limit=12&offset=0:0
+[ 1066013ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066013ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getAllNfts (http://localhost:3000/src/services/api.js?t=1776853170875:132:20)
+    at async loadNFTs (http://localhost:3000/src/pages/HomePage.jsx?t=1776859668069:167:21) @ http://localhost:3000/@vite/client:509
+[ 1066014ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066685ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1066686ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1066687ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1066687ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1066687ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1066687ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1066688ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1066688ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1066689ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1066689ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1066692ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1066692ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066692ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1066692ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1066692ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1066692ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1066693ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1066693ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066693ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1066693ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1066695ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1066695ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067404ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1067404ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1067405ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1067405ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1067406ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1067406ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1067406ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1067407ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1067407ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1067407ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1067407ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1067407ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1067408ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1067408ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1067409ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1067409ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1067409ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1067409ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1067410ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1067410ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1067410ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1067410ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067410ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067410ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067410ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1067410ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067410ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067411ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1067411ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067411ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067412ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067412ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1067412ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067412ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067412ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1067412ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067412ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067413ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067413ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1067413ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1067414ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1067414ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1067414ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1067414ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070277ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[ 1070281ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070281ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070588ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1070588ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070589ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1070589ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070592ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1070592ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070592ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1070593ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1070593ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1070593ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1070594ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1070594ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1070606ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1070606ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1070607ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1070607ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1070607ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1070607ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070607ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070607ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070607ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1070608ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1070608ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1070609ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1070609ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1070609ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070609ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1070609ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070609ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070610ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070610ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070610ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1070612ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1070612ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070612ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/owner/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070612ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070612ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070612ms] [ERROR] 加载 NFT 失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftsByCreator (http://localhost:3000/src/services/api.js?t=1776853170875:128:20)
+    at async loadNFTs (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:588:16) @ http://localhost:3000/@vite/client:509
+[ 1070613ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070614ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1070614ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/nft/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1070614ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1070615ms] [ERROR] 加载用户信息失败: Error: 请求失败：429
+    at http://localhost:3000/src/services/api.js?t=1776853170875:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getUserInfo (http://localhost:3000/src/services/api.js?t=1776853170875:300:20)
+    at async loadUserInfo (http://localhost:3000/src/pages/ProfilePage.jsx?t=1776859788735:438:22) @ http://localhost:3000/@vite/client:509
+[ 1070615ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1072032ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1072033ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1072034ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1072034ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1072034ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1072034ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1072038ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1072038ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1072039ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1072039ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1072039ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1072039ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1072039ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1072039ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1072039ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/fan-token/creator/0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d:0
+[ 1072040ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1076065ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1076065ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1076066ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 1076066ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[ 1076066ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1076066ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 1076071ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1076071ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1076071ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1076071ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1076072ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1076072ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1076072ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 1076072ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 1076072ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/user/info:0
+[ 1076072ms] [ERROR] 请求失败：429 @ http://localhost:3000/@vite/client:509
+[ 1076072ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 1076072ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 429
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 1077229ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0

@@ -1,0 +1,23 @@
+[     150ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     153ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     154ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     462ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     463ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     466ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     466ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     467ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     467ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     480ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ http://localhost:8085/api/nft/1776844672776:0
+[     480ms] [ERROR] 请求的资源不存在 @ http://localhost:3000/@vite/client:509
+[     481ms] [ERROR] 加载 NFT 详情失败: Error: 请求的资源不存在
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftAsset (http://localhost:3000/src/services/api.js:116:20)
+    at async loadNFTDetails (http://localhost:3000/src/pages/NFTDetailPage.jsx?t=1776851866030:417:24) @ http://localhost:3000/@vite/client:509
+[     486ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ http://localhost:8085/api/nft/1776844672776:0
+[     486ms] [ERROR] 请求的资源不存在 @ http://localhost:3000/@vite/client:509
+[     486ms] [ERROR] 加载 NFT 详情失败: Error: 请求的资源不存在
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getNftAsset (http://localhost:3000/src/services/api.js:116:20)
+    at async loadNFTDetails (http://localhost:3000/src/pages/NFTDetailPage.jsx?t=1776851866030:417:24) @ http://localhost:3000/@vite/client:509

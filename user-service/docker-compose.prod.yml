@@ -1,0 +1,124 @@
+version: '3.8'
+
+services:
+  # MySQL 数据库（生产环境）
+  mysql:
+    image: mysql:8.0
+    container_name: user-service-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root123456}
+      MYSQL_DATABASE: creativenft_db
+      MYSQL_USER: ${MYSQL_USER:-nftuser}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-nftpass123}
+      TZ: Asia/Shanghai
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./src/main/resources/db/migration:/docker-entrypoint-initdb.d
+      - ./backup/mysql:/backup
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --default-time-zone=+08:00
+      --max-connections=500
+      --innodb-buffer-pool-size=1G
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - user-service-network
+    restart: always
+
+  # Redis 缓存（生产环境）
+  redis:
+    image: redis:7-alpine
+    container_name: user-service-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: redis-server /usr/local/etc/redis/redis.conf
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - user-service-network
+    restart: always
+
+  # 后端服务（生产环境）
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: user-service-backend
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      # 数据库配置
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/creativenft_db?useSSL=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: ${MYSQL_USER:-nftuser}
+      SPRING_DATASOURCE_PASSWORD: ${MYSQL_PASSWORD:-nftpass123}
+      # Redis 配置
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: 6379
+      SPRING_DATA_REDIS_PASSWORD: ${REDIS_PASSWORD:-}
+      # 区块链配置
+      BLOCKCHAIN_RPC_URL: ${BLOCKCHAIN_RPC_URL:-https://rpc-amoy.polygon.technology/}
+      BLOCKCHAIN_CHAIN_ID: "${BLOCKCHAIN_CHAIN_ID:-80002}"
+      BLOCKCHAIN_PLATFORM_PRIVATE_KEY: ${BLOCKCHAIN_PLATFORM_PRIVATE_KEY}
+      NFT_ASSET_CONTRACT_ADDRESS: ${NFT_ASSET_CONTRACT_ADDRESS}
+      MICRO_MARKET_CONTRACT_ADDRESS: ${MICRO_MARKET_CONTRACT_ADDRESS}
+      FAN_TOKEN_CONTRACT_ADDRESS: ${FAN_TOKEN_CONTRACT_ADDRESS}
+      # IPFS 配置
+      IPFS_API_URL: ${IPFS_API_URL:-https://ipfs.io}
+      IPFS_GATEWAY_URL: ${IPFS_GATEWAY_URL:-https://ipfs.io/ipfs/}
+      # JVM 配置
+      JAVA_OPTS: "-Xms1g -Xmx2g -XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+    ports:
+      - "8085:8085"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+      - ./wallets:/app/wallets
+    networks:
+      - user-service-network
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+
+  # 前端服务（生产环境）
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: user-service-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - user-service-network
+    restart: always
+
+volumes:
+  mysql_data:
+  redis_data:
+
+networks:
+  user-service-network:
+    driver: bridge

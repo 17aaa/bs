@@ -1,0 +1,44 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+    - navigation [ref=e8]:
+      - generic [ref=e9] [cursor=pointer]: 首页
+      - generic [ref=e10] [cursor=pointer]: 市场
+      - generic [ref=e11] [cursor=pointer]: 创作
+      - generic [ref=e12] [cursor=pointer]: 代币
+      - generic [ref=e13] [cursor=pointer]: 我的
+      - generic [ref=e14]:
+        - generic [ref=e15]: 💰 98.00 积分
+        - button "🔔" [ref=e17] [cursor=pointer]
+        - button "退出" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Amoy
+          - generic [ref=e21]: 0x22e1...1b8d
+  - generic [ref=e22]:
+    - heading "粉丝代币" [level=1] [ref=e23]
+    - paragraph [ref=e24]: 创作者发行专属代币，粉丝通过质押获得收益
+    - generic [ref=e25]:
+      - button "探索代币" [ref=e26] [cursor=pointer]
+      - button "发行代币" [active] [ref=e27] [cursor=pointer]
+    - generic [ref=e32]:
+      - heading "发行粉丝代币" [level=2] [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]: 代币名称 *
+            - textbox "如：Creative Token" [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]: 代币符号 *
+            - textbox "如：CRT" [ref=e41]
+            - paragraph [ref=e42]: 2-8 个大写字母
+          - generic [ref=e43]:
+            - generic [ref=e44]: 关联 NFT ID *
+            - spinbutton [ref=e45]
+            - paragraph [ref=e46]: 与某个 NFT 作品绑定
+          - generic [ref=e47]:
+            - generic [ref=e48]: 总供应量 *
+            - spinbutton [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e51]: 创作者地址
+          - textbox [ref=e52]: "0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d"
+        - button "发行代币" [ref=e53] [cursor=pointer]

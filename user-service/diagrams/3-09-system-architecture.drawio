@@ -1,0 +1,103 @@
+<mxfile host="drawio-plugin" modified="2026-04-28T01:29:13.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="22.1.22" etag="fHLv9jcvujMijEjAkCrM" type="embed">
+  <diagram id="arch" name="系统架构图">
+    <mxGraphModel dx="488" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="前端展示层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#666666;fontSize=14;fontStyle=1;fontName=SimSun;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;strokeWidth=1.5;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="1020" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="用户端&#xa;(React / ethers.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="管理端&#xa;(React / Vite)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="330" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="MetaMask&#xa;(浏览器钱包)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="580" y="90" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="服务端钱包&#xa;(降级模式)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="830" y="90" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="后端服务层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#666666;fontSize=14;fontStyle=1;fontName=SimSun;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;strokeWidth=1.5;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="210" width="1020" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Spring Boot&#xa;(REST API)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="255" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="MyBatis Plus&#xa;(ORM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="280" y="255" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Web3j&#xa;(链上交互)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="460" y="255" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="JWT&#xa;(身份认证)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="640" y="255" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="@Async异步铸造&#xa;(RocketMQ审计日志)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="830" y="255" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="数据与存储层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#666666;fontSize=14;fontStyle=1;fontName=SimSun;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;strokeWidth=1.5;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="410" width="1020" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="MySQL&#xa;(业务数据)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="450" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Redis&#xa;(会话/缓存)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="300" y="450" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="MinIO&#xa;(文件缓冲层)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="520" y="450" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="IPFS / Pinata&#xa;(不可变存证层)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="760" y="450" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="区块链层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#666666;fontSize=14;fontStyle=1;fontName=SimSun;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;strokeWidth=1.5;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="570" width="1020" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Polygon Amoy&#xa;(测试网)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="80" y="610" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="NFTAsset.sol&#xa;(ERC-721)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="320" y="610" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="MicroMarket.sol&#xa;(交易合约)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="560" y="610" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="FanToken.sol&#xa;(ERC-20)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#333333;fontSize=13;fontName=SimSun;strokeWidth=1.5;" parent="1" vertex="1">
+          <mxGeometry x="800" y="610" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="HTTP / REST" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="250" y="170" as="sourcePoint" />
+          <mxPoint x="250" y="210" as="targetPoint" />
+        </mxCell>
+        <mxCell id="25" value="JSON-RPC" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="550" y="170" as="sourcePoint" />
+          <mxPoint x="550" y="210" as="targetPoint" />
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="850" y="170" as="sourcePoint" />
+          <mxPoint x="850" y="210" as="targetPoint" />
+        </mxCell>
+        <mxCell id="27" value="SQL / 缓存" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="300" y="370" as="sourcePoint" />
+          <mxPoint x="300" y="410" as="targetPoint" />
+        </mxCell>
+        <mxCell id="28" value="文件读写" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="700" y="370" as="sourcePoint" />
+          <mxPoint x="700" y="410" as="targetPoint" />
+        </mxCell>
+        <mxCell id="29" value="JSON-RPC / 交易广播" style="endArrow=block;html=1;strokeColor=#555555;strokeWidth=2;endFill=1;fontSize=11;fontName=SimSimSun;fontColor=#555555;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+          <mxPoint x="550" y="530" as="sourcePoint" />
+          <mxPoint x="550" y="570" as="targetPoint" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

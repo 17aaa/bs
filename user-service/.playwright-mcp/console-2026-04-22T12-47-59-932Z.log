@@ -1,0 +1,58 @@
+[     194ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     208ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     208ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     514ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     514ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     515ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     515ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[     515ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     515ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  462485ms] [ERROR] WebSocket connection to 'ws://localhost:3000/?token=bFyywrizmWgv' failed:  @ http://localhost:3000/@vite/client:840
+[  462487ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3000/@vite/client:968
+[  462893ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[  462897ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[  462897ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[  463204ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  463204ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[  463206ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  463206ms] [LOG] 使用后端创建的钱包地址自动连接: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d @ http://localhost:3000/src/services/web3.js:176
+[  463207ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  463208ms] [LOG] 钱包连接成功: {address: 0x22e1b83adb9cdbc6fbc73a16e6ac038cf61c1b8d, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  463216ms] [ERROR] 获取通知失败: AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1979:16)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21) @ http://localhost:3000/@vite/client:509
+[  463217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/notifications?page=1&size=20:0
+[  463217ms] [ERROR] 获取未读数量失败: AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1979:16)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21) @ http://localhost:3000/@vite/client:509
+[  463217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/notifications/unread-count:0
+[  463217ms] [ERROR] 获取通知失败: AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1979:16)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx:171:21) @ http://localhost:3000/@vite/client:509
+[  463217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/notifications?page=1&size=20:0
+[  463217ms] [ERROR] 获取未读数量失败: AxiosError: Network Error
+    at XMLHttpRequest.handleError (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1979:16)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx:190:21) @ http://localhost:3000/@vite/client:509
+[  463217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/notifications/unread-count:0
+[  463223ms] [ERROR] 无法连接到服务器，请检查网络 @ http://localhost:3000/@vite/client:509
+[  463224ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/user/info:0
+[  463224ms] [ERROR] 无法连接到服务器，请检查网络 @ http://localhost:3000/@vite/client:509
+[  463224ms] [ERROR] 加载 NFT 失败: Error: 无法连接到服务器，请检查网络
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getOrderList (http://localhost:3000/src/services/api.js:181:20)
+    at async loadNFTs (http://localhost:3000/src/pages/MarketPage.jsx:262:21) @ http://localhost:3000/@vite/client:509
+[  463224ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/market/orders?status=1&page=1&size=100:0
+[  463224ms] [ERROR] 无法连接到服务器，请检查网络 @ http://localhost:3000/@vite/client:509
+[  463225ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/user/info:0
+[  463225ms] [ERROR] 无法连接到服务器，请检查网络 @ http://localhost:3000/@vite/client:509
+[  463225ms] [ERROR] 加载 NFT 失败: Error: 无法连接到服务器，请检查网络
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.getOrderList (http://localhost:3000/src/services/api.js:181:20)
+    at async loadNFTs (http://localhost:3000/src/pages/MarketPage.jsx:262:21) @ http://localhost:3000/@vite/client:509
+[  463225ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8085/api/market/orders?status=1&page=1&size=100:0

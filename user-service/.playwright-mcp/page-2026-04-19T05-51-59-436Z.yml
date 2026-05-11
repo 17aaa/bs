@@ -1,0 +1,21 @@
+- generic [ref=e2]:
+  - generic [ref=e24]:
+    - generic [ref=e25]: ✕
+    - generic [ref=e26]: 登录失败，请检查用户名和密码
+    - button "×" [ref=e27] [cursor=pointer]
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - generic [ref=e10]: 🎨
+      - heading "欢迎回来" [level=1] [ref=e11]
+      - paragraph [ref=e12]: 学生创意成果 NFT 交易平台
+      - generic [ref=e13]:
+        - textbox "用户名" [ref=e15]: playwright
+        - textbox "密码" [ref=e17]: wrongpassword
+        - button "登录" [ref=e18] [cursor=pointer]
+      - generic [ref=e20]: 或
+      - button "🔗 使用 MetaMask 登录" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: 🔗
+        - text: 使用 MetaMask 登录
+      - paragraph [ref=e23]: 还没有账号？立即注册

@@ -1,0 +1,133 @@
+version: '3.8'
+
+services:
+  # MySQL 数据库
+  mysql:
+    image: mysql:8.0
+    container_name: user-service-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root123456
+      MYSQL_DATABASE: creativenft_db
+      MYSQL_USER: nftuser
+      MYSQL_PASSWORD: nftpass123
+      TZ: Asia/Shanghai
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_/var/lib/mysql
+      - ./src/main/resources/db/migration:/docker-entrypoint-initdb.d
+    command: >
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_unicode_ci
+      --default-time-zone=+08:00
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - user-service-network
+
+  # Redis 缓存
+  redis:
+    image: redis:7-alpine
+    container_name: user-service-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - user-service-network
+
+  # MinIO 对象存储
+  minio:
+    image: minio/minio:latest
+    container_name: user-service-minio
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin123
+    ports:
+      - "9000:9000"      # API 端口
+      - "9001:9001"      # Console 端口
+    volumes:
+      - minio_/data
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    networks:
+      - user-service-network
+
+  # 后端服务
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: user-service-backend
+    environment:
+      # 数据库配置
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/creativenft_db?useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: nftuser
+      SPRING_DATASOURCE_PASSWORD: nftpass123
+      # Redis 配置
+      SPRING_DATA_REDIS_HOST: redis
+      SPRING_DATA_REDIS_PORT: 6379
+      # MinIO 配置
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin123
+      MINIO_BUCKET_NAME: nft-assets
+      MINIO_PUBLIC_URL: http://localhost:9000
+      # 区块链配置
+      BLOCKCHAIN_RPC_URL: https://rpc-amoy.polygon.technology/
+      BLOCKCHAIN_CHAIN_ID: "80002"
+      # IPFS 配置
+      IPFS_API_URL: https://ipfs.io
+      IPFS_GATEWAY_URL: https://ipfs.io/ipfs/
+      # 平台私钥（生产环境应使用更安全的方式）
+      BLOCKCHAIN_PLATFORM_PRIVATE_KEY: ${BLOCKCHAIN_PLATFORM_PRIVATE_KEY:-0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80}
+    ports:
+      - "8085:8085"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - user-service-network
+    restart: unless-stopped
+
+  # 前端服务
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: user-service-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - user-service-network
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+  redis_data:
+  minio_
+
+networks:
+  user-service-network:
+    driver: bridge

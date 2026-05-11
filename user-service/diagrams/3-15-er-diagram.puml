@@ -1,0 +1,70 @@
+@startuml 3-15-er-diagram
+!theme plain
+skinparam backgroundColor white
+skinparam defaultFontSize 16
+skinparam defaultFontName SimSun
+skinparam linetype ortho
+skinparam nodesep 60
+skinparam ranksep 80
+skinparam padding 10
+
+skinparam rectangle {
+  BackgroundColor #FFFFFF
+  BorderColor #000000
+  FontSize 16
+  FontStyle bold
+  RoundCorner 0
+  MinimumWidth 120
+  Height 40
+}
+
+skinparam arrow {
+  FontSize 15
+  Color #000000
+  Thickness 1.5
+  HeadColor #000000
+  TailColor #000000
+}
+
+title 图3-15  系统E-R图
+
+' ========== 左：用户域 ==========
+rectangle "用户\n(users)" as users
+rectangle "角色\n(user_roles)" as user_roles
+rectangle "钱包\n(wallets)" as wallets
+
+' ========== 中：NFT域 ==========
+rectangle "NFT资产\n(nft_assets)" as nft_assets
+rectangle "版本历史\n(nft_versions)" as nft_versions
+rectangle "审核记录\n(nft_reviews)" as nft_reviews
+rectangle "铸造任务\n(mint_tasks)" as mint_tasks
+rectangle "IPFS文件\n(ipfs_file_record)" as ipfs_file
+
+' ========== 右：交易域 ==========
+rectangle "交易订单\n(market_orders)" as market_orders
+rectangle "粉丝代币\n(fan_tokens)" as fan_tokens
+rectangle "质押记录\n(stake_records)" as stake_records
+rectangle "交易通知\n(transaction_notifications)" as notifications
+rectangle "审计日志\n(audit_logs)" as audit_logs
+
+' ========== 关系 ==========
+users "1" -- "N" user_roles : 拥有
+users "1" -- "1" wallets : 绑定
+users "1" -- "N" nft_assets : 创建
+users "1" -- "N" mint_tasks : 发起
+users "1" -- "N" nft_reviews : 审核
+users "1" -- "N" notifications : 接收
+users "1" -- "N" audit_logs : 产生
+
+nft_assets "1" -- "N" nft_versions : 迭代
+nft_assets "1" -- "N" nft_reviews : 被审核
+nft_assets "1" -- "N" market_orders : 交易
+nft_assets "1" -- "N" ipfs_file : 关联
+nft_assets "1" -- "1" fan_tokens : 发行代币
+mint_tasks "N" -- "1" nft_assets : 铸造产出
+
+fan_tokens "1" -- "N" stake_records : 质押
+
+market_orders "1" -- "N" notifications : 触发通知
+
+@enduml

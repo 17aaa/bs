@@ -1,0 +1,146 @@
+- generic [ref=e238]:
+  - banner [ref=e239]:
+    - heading "CreativeNFT" [level=1] [ref=e240] [cursor=pointer]
+    - navigation [ref=e241]:
+      - generic [ref=e242] [cursor=pointer]: 首页
+      - generic [ref=e243] [cursor=pointer]: 市场
+      - generic [ref=e244] [cursor=pointer]: 创作
+      - generic [ref=e245] [cursor=pointer]: 代币
+      - generic [ref=e246] [cursor=pointer]: 我的
+      - generic [ref=e247]:
+        - generic [ref=e248]: 💰 98.00 积分
+        - button "🔔" [ref=e250] [cursor=pointer]
+        - button "退出" [ref=e251] [cursor=pointer]
+        - generic [ref=e252]:
+          - generic [ref=e253]: Amoy
+          - generic [ref=e254]: 0x22e1...1b8d
+  - generic [ref=e255]:
+    - generic [ref=e256]:
+      - heading "🎓 学生创意成果交易市场" [level=3] [ref=e257]
+      - paragraph [ref=e258]:
+        - text: 在这里可以购买和出售学生创作的NFT作品。
+        - strong [ref=e259]: 注意：
+        - text: 只有已上架销售的NFT才会出现在市场中。
+        - text: 如果你是创作者，可以在"我的NFT"页面选择作品进行上架销售。
+    - heading "探索 NFT" [level=1] [ref=e260]
+    - generic [ref=e261]:
+      - button "全部" [ref=e262] [cursor=pointer]
+      - button "艺术" [ref=e263] [cursor=pointer]
+      - button "音乐" [ref=e264] [cursor=pointer]
+      - button "摄影" [ref=e265] [cursor=pointer]
+      - button "设计" [ref=e266] [cursor=pointer]
+      - button "写作" [ref=e267] [cursor=pointer]
+      - button "视频" [ref=e268] [cursor=pointer]
+      - textbox "搜索 NFT..." [ref=e269]
+      - combobox [ref=e270] [cursor=pointer]:
+        - option "最新发布" [selected]
+        - option "最早发布"
+    - generic [ref=e271]:
+      - generic [ref=e272] [cursor=pointer]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: 荷兰拍卖
+          - generic [ref=e275]: 🎨
+        - generic [ref=e276]:
+          - 'heading "NFT #1776844672776" [level=3] [ref=e277]'
+          - paragraph
+          - generic [ref=e278]:
+            - generic [ref=e279]: 当前价格
+            - generic [ref=e280]: 5.0000 积分
+          - generic [ref=e281]:
+            - generic [ref=e282]: Art
+            - generic [ref=e283]: 版本：
+          - generic [ref=e284]:
+            - generic [ref=e285]: "ID: 1776844672776"
+            - generic [ref=e286]: 版税：5.00%
+          - button "查看详情" [ref=e287]
+          - button "出售" [ref=e288]
+      - generic [ref=e289] [cursor=pointer]:
+        - generic [ref=e290]:
+          - generic [ref=e291]: 固定价格
+          - img "测试NFT作品" [ref=e292]
+        - generic [ref=e293]:
+          - heading "测试NFT作品" [level=3] [ref=e294]
+          - paragraph [ref=e295]: 这是一个用于测试铸造流程的NFT作品
+          - generic [ref=e296]:
+            - generic [ref=e297]: 售价
+            - generic [ref=e298]: 2.0000 积分
+          - generic [ref=e299]:
+            - generic [ref=e300]: Art
+            - generic [ref=e301]: 版本：1
+          - generic [ref=e302]:
+            - generic [ref=e303]: "ID: 1776844672776"
+            - generic [ref=e304]: 版税：5.00%
+          - button "查看详情" [ref=e305]
+          - button "出售" [ref=e306]
+      - generic [ref=e307] [cursor=pointer]:
+        - generic [ref=e308]:
+          - generic [ref=e309]: 固定价格
+          - generic [ref=e310]: 🎨
+        - generic [ref=e311]:
+          - heading "GEO" [level=3] [ref=e312]
+          - paragraph [ref=e313]: geo
+          - generic [ref=e314]:
+            - generic [ref=e315]: 售价
+            - generic [ref=e316]: 0.0010 积分
+          - generic [ref=e317]:
+            - generic [ref=e318]: Art
+            - generic [ref=e319]: 版本：1
+          - generic [ref=e320]:
+            - generic [ref=e321]: "ID: 1774260967022"
+            - generic [ref=e322]: 版税：5.00%
+          - button "查看详情" [ref=e323]
+          - button "购买" [ref=e324]
+      - generic [ref=e325] [cursor=pointer]:
+        - generic [ref=e326]:
+          - generic [ref=e327]: 固定价格
+          - generic [ref=e328]: 🎨
+        - generic [ref=e329]:
+          - heading "GEO" [level=3] [ref=e330]
+          - paragraph
+          - generic [ref=e331]:
+            - generic [ref=e332]: 售价
+            - generic [ref=e333]: 0.0010 积分
+          - generic [ref=e334]:
+            - generic [ref=e335]: Art
+            - generic [ref=e336]: 版本：1
+          - generic [ref=e337]:
+            - generic [ref=e338]: "ID: 1774260950830"
+            - generic [ref=e339]: 版税：5.00%
+          - button "查看详情" [ref=e340]
+          - button "购买" [ref=e341]
+      - generic [ref=e342] [cursor=pointer]:
+        - generic [ref=e343]:
+          - generic [ref=e344]: 固定价格
+          - generic [ref=e345]: 🎨
+        - generic [ref=e346]:
+          - heading "GEO" [level=3] [ref=e347]
+          - paragraph
+          - generic [ref=e348]:
+            - generic [ref=e349]: 售价
+            - generic [ref=e350]: 0.0010 积分
+          - generic [ref=e351]:
+            - generic [ref=e352]: Art
+            - generic [ref=e353]: 版本：1
+          - generic [ref=e354]:
+            - generic [ref=e355]: "ID: 1774260950830"
+            - generic [ref=e356]: 版税：5.00%
+          - button "查看详情" [ref=e357]
+          - button "购买" [ref=e358]
+      - generic [ref=e359] [cursor=pointer]:
+        - generic [ref=e360]:
+          - generic [ref=e361]: 固定价格
+          - generic [ref=e362]: 🎨
+        - generic [ref=e363]:
+          - heading "Test NFT" [level=3] [ref=e364]
+          - paragraph [ref=e365]: Test Description
+          - generic [ref=e366]:
+            - generic [ref=e367]: 售价
+            - generic [ref=e368]: 1.0000 积分
+          - generic [ref=e369]:
+            - generic [ref=e370]: Art
+            - generic [ref=e371]: 版本：1
+          - generic [ref=e372]:
+            - generic [ref=e373]: "ID: 1"
+            - generic [ref=e374]: 版税：5.00%
+          - button "查看详情" [ref=e375]
+          - button "购买" [ref=e376]

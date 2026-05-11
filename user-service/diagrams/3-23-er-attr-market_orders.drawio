@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<mxfile host="draw.io" modified="2026-04-27" agent="Claude" version="24.0.0" type="device">
+  <diagram id="er-diagram" name="交易订单(market_orders)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="交易订单&#10;(market_orders)" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="570" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="订单ID" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;fontStyle=5;" vertex="1" parent="1">
+          <mxGeometry x="855" y="360" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="卖家地址" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1045.5255888325764" y="474.0" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="买家地址" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1069.0698715275612" y="533.2645084366632" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="7" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="NFT合约" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1074.627794819679" y="596.7918623603047" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="9" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Token ID" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1061.7323765728997" y="659.2444315316471" width="116" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="11" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="资产ID" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;fontStyle=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1031.4671024061097" y="715.374890174613" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="13" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="订单类型" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="986.374890174613" y="760.4671024061097" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="15" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="价格" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="930.2444315316471" y="790.7323765728999" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="17" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="起始价" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="867.7918623603047" y="803.627794819679" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="19" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="保留价" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="804.264508436663" y="798.0698715275612" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="21" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="支付代币" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="745.0" y="774.5255888325764" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="23" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" value="结束时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="694.9777988539292" y="734.9731603311213" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="25" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="版税费率" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="658.4008191288492" y="682.7358196441016" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="27" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="29" value="版税接收者" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="638.3422943373142" y="622.2025990867246" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="30" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="29" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="31" value="最终价格" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="636.4875612967726" y="558.4595588924494" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="31" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="33" value="状态" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="652.9924564863397" y="496.8624514713855" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="34" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="33" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="35" value="交易哈希" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="686.4702225138249" y="442.58672586896125" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="36" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="35" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="37" value="创建时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="734.1080248244227" y="400.192681489154" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="38" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="37" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="39" value="更新时间" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=12;fontName=SimSun;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="791.90328880356" y="373.24230729059246" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="40" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" edge="1" source="2" target="39" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

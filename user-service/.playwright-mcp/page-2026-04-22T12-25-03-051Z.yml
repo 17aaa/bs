@@ -1,0 +1,64 @@
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+    - navigation [ref=e8]:
+      - generic [ref=e9] [cursor=pointer]: 首页
+      - generic [ref=e10] [cursor=pointer]: 市场
+      - generic [ref=e11] [cursor=pointer]: 创作
+      - generic [ref=e12] [cursor=pointer]: 代币
+      - generic [ref=e13] [cursor=pointer]: 我的
+      - generic [ref=e14]:
+        - generic [ref=e15]: 💰 98.00 积分
+        - button "🔔" [ref=e17] [cursor=pointer]
+        - button "退出" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e20]: Amoy
+          - generic [ref=e21]: 0x22e1...1b8d
+  - generic [ref=e22]:
+    - button "← 返回" [ref=e24] [cursor=pointer]
+    - img "测试NFT作品" [ref=e26]
+    - generic [ref=e27]:
+      - heading "测试NFT作品" [level=1] [ref=e28]
+      - paragraph [ref=e29]: 这是一个用于测试铸造流程的NFT作品
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]: 分类
+          - text: Art
+        - generic [ref=e33]:
+          - generic [ref=e34]: 创作者
+          - generic [ref=e35]: 0x152139e7...
+        - generic [ref=e36]:
+          - generic [ref=e37]: Token ID
+          - text: "1776844672776"
+        - generic [ref=e38]:
+          - generic [ref=e39]: 版税
+          - generic [ref=e40]: 5.00%
+        - generic [ref=e41]:
+          - generic [ref=e42]: 当前版本
+          - generic [ref=e43]: v1
+        - generic [ref=e44]:
+          - generic [ref=e45]: 状态
+          - text: 正常
+      - generic [ref=e46]:
+        - button "详情" [ref=e47] [cursor=pointer]
+        - button "版本历史 (1)" [ref=e48] [cursor=pointer]
+        - button "持有记录" [ref=e49] [cursor=pointer]
+      - generic [ref=e50]:
+        - heading "当前所有者" [level=3] [ref=e51]
+        - generic [ref=e52]:
+          - generic [ref=e53]: "地址:"
+          - link "0x22e1...1b8d" [ref=e54] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e55]:
+          - generic [ref=e56]: "合约地址:"
+          - link "0x5FbD...0aa3" [ref=e57] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e58]:
+          - generic [ref=e59]: "创建时间:"
+          - generic [ref=e60]: 2026/4/22 15:57:53
+      - generic [ref=e61]:
+        - button "上架销售" [ref=e62] [cursor=pointer]
+        - button "在市场查看" [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - generic [ref=e65]: 收到的报价 刷新
+        - generic [ref=e66]: 暂无报价

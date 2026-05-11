@@ -1,0 +1,3 @@
+[     384ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     400ms] [WARNING] No routes matched location "/register"  @ http://localhost:3000/@vite/client:509
+[     400ms] [WARNING] No routes matched location "/register"  @ http://localhost:3000/@vite/client:509

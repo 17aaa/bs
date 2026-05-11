@@ -1,0 +1,26 @@
+- generic [ref=e530]:
+  - banner [ref=e531]:
+    - heading "CreativeNFT" [level=1] [ref=e532] [cursor=pointer]
+    - navigation [ref=e533]:
+      - generic [ref=e534] [cursor=pointer]: 首页
+      - generic [ref=e535] [cursor=pointer]: 市场
+      - generic [ref=e536] [cursor=pointer]: 创作
+      - generic [ref=e537] [cursor=pointer]: 代币
+      - generic [ref=e538] [cursor=pointer]: 我的
+      - generic [ref=e539]:
+        - generic [ref=e540]: 💰 98.00 积分
+        - button "🔔" [ref=e542] [cursor=pointer]
+        - button "退出" [ref=e543] [cursor=pointer]
+        - generic [ref=e544]:
+          - generic [ref=e545]: Amoy
+          - generic [ref=e546]: 0x22e1...1b8d
+  - generic [ref=e547]:
+    - heading "粉丝代币" [level=1] [ref=e548]
+    - paragraph [ref=e549]: 创作者发行专属代币，粉丝通过质押获得收益
+    - generic [ref=e550]:
+      - button "探索代币" [ref=e551] [cursor=pointer]
+      - button "发行代币" [ref=e552] [cursor=pointer]
+    - generic [ref=e553]:
+      - generic [ref=e554]: 🪙
+      - generic [ref=e555]: 暂无粉丝代币
+      - generic [ref=e556]: 成为第一个发行粉丝代币的创作者！

@@ -1,0 +1,53 @@
+- generic [ref=e193]:
+  - banner [ref=e194]:
+    - heading "CreativeNFT" [level=1] [ref=e195] [cursor=pointer]
+    - navigation [ref=e196]:
+      - generic [ref=e197] [cursor=pointer]: 首页
+      - generic [ref=e198] [cursor=pointer]: 市场
+      - generic [ref=e199] [cursor=pointer]: 创作
+      - generic [ref=e200] [cursor=pointer]: 代币
+      - generic [ref=e201] [cursor=pointer]: 我的
+      - generic [ref=e202]:
+        - generic [ref=e203]: 💰 98.00 积分
+        - button "🔔" [ref=e205] [cursor=pointer]
+        - button "退出" [ref=e206] [cursor=pointer]
+        - generic [ref=e207]:
+          - generic [ref=e208]: Amoy
+          - generic [ref=e209]: 0x22e1...1b8d
+  - generic [ref=e210]:
+    - heading "创作 NFT" [level=1] [ref=e211]
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]: 作品文件
+        - generic [ref=e215]:
+          - button "💾 对象存储 推荐" [ref=e216] [cursor=pointer]:
+            - text: 💾 对象存储
+            - generic [ref=e217]: 推荐
+          - button "🌐 IPFS 分布式" [ref=e218] [cursor=pointer]:
+            - text: 🌐 IPFS
+            - generic [ref=e219]: 分布式
+        - generic [ref=e220] [cursor=pointer]:
+          - generic [ref=e221]: 📁
+          - paragraph [ref=e222]: 点击或拖拽上传文件
+          - generic [ref=e223]: 支持图片、PDF、视频、3D模型等任意格式，最大 100MB
+      - generic [ref=e224]:
+        - generic [ref=e225]: 作品名称
+        - textbox "输入作品名称" [ref=e226]
+      - generic [ref=e227]:
+        - generic [ref=e228]: 作品描述
+        - textbox "描述你的作品..." [ref=e229]
+      - generic [ref=e230]:
+        - generic [ref=e231]: 分类
+        - combobox [ref=e232]:
+          - option "艺术" [selected]
+          - option "音乐"
+          - option "摄影"
+          - option "设计"
+          - option "写作"
+          - option "视频"
+          - option "其他"
+      - generic [ref=e233]:
+        - generic [ref=e234]: 版税比例 (万分比)
+        - spinbutton [ref=e235]: "500"
+        - generic [ref=e236]: 500 = 5%, 1000 = 10%。每次转售时你将获得相应比例的收益。
+      - button "铸造 NFT" [ref=e237] [cursor=pointer]

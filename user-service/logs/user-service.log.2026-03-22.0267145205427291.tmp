@@ -1,0 +1,851 @@
+2026-03-23T08:29:00.369+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h20m22s75ms).
+2026-03-23T08:29:00.664+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h20m21s690ms).
+2026-03-23T08:29:00.357+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=10h20m21s798ms).
+2026-03-23T09:01:28.517+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s319ms).
+2026-03-23T09:01:28.534+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=15m27s320ms).
+2026-03-23T09:01:28.565+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m27s320ms).
+2026-03-23T09:17:25.578+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m27s48ms).
+2026-03-23T09:17:25.597+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=15m27s54ms).
+2026-03-23T09:17:25.614+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=15m27s46ms).
+2026-03-23T09:18:51.302+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s724ms).
+2026-03-23T09:18:51.324+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m25s727ms).
+2026-03-23T09:18:51.335+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m25s721ms).
+2026-03-23T09:36:00.531+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m9s227ms).
+2026-03-23T09:36:00.556+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=17m9s232ms).
+2026-03-23T09:36:00.563+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=17m9s228ms).
+2026-03-23T14:25:02.569+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T14:25:07.615+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.config.HealthCheckConfig         : Blockchain health check failed
+
+java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[na:na]
+	at com.zhm.springboot.userservice.config.HealthCheckConfig$BlockchainHealthIndicator.health(HealthCheckConfig.java:75) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:94) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:47) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:80) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:69) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$ServletWebOperationAdapter.handle(AbstractWebMvcEndpointHandlerMapping.java:327) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(AbstractWebMvcEndpointHandlerMapping.java:434) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T14:25:08.032+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-4] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T14:34:49.899+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T14:34:49.909+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:06:41.817+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:06:41.843+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:08:40.547+08:00  WARN 65087 --- [user-service] [HikariPool-2:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m7s268ms).
+2026-03-23T15:08:40.580+08:00  WARN 65087 --- [user-service] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s266ms).
+2026-03-23T15:08:40.744+08:00  WARN 65087 --- [user-service] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=2m7s268ms).
+2026-03-23T15:25:39.683+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:25:39.696+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:30:44.250+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.nft.controller.NftController     : 收到 NFT 铸造请求：creatorAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, name=智能, category=Art
+2026-03-23T15:30:44.324+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.nft.service.NftService           : Generated metadata hash: e6b6600219d2e25e45e2fa2a76392fd133b88594422209416f5c8ab204b49f07
+2026-03-23T15:30:44.325+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.nft.service.NftService           : NFT mint transaction created: 0xpending
+2026-03-23T15:31:46.050+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.nft.controller.UploadController  : 文件上传成功：029b7918-639d-49a2-aa62-df715ea80d06.png
+2026-03-23T15:31:59.469+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.nft.controller.NftController     : 收到 NFT 铸造请求：creatorAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, name=海豚测试, category=Art
+2026-03-23T15:31:59.473+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.nft.service.NftService           : Generated metadata hash: 8c30eaa031a6101645169cdb29fcacaef6d6c8b8e130c0f220901234d468499a
+2026-03-23T15:31:59.473+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.nft.service.NftService           : NFT mint transaction created: 0xpending
+2026-03-23T15:32:23.656+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.b.controller.IpfsController      : Received image upload request: iwEdAqNwbmcDAQTRB4AF0QQ4BrAQR4jxefuCkgkNBHL1vN0AB9MAAAABVsLciQgACaJpbQoAC9IAEdnG.png
+2026-03-23T15:32:23.658+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.blockchain.service.IpfsService   : Uploading file to IPFS: ipfs_8664033129080745402_iwEdAqNwbmcDAQTRB4AF0QQ4BrAQR4jxefuCkgkNBHL1vN0AB9MAAAABVsLciQgACaJpbQoAC9IAEdnG.png
+2026-03-23T15:33:12.516+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.nft.controller.NftController     : 收到 NFT 铸造请求：creatorAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, name=测试111, category=Art
+2026-03-23T15:33:12.522+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.nft.service.NftService           : Generated metadata hash: dddc94f5fb0537eccec79641cd5dd7de9d2b9ef2c6ced593d7ba2988e4d3277a
+2026-03-23T15:33:12.522+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.nft.service.NftService           : NFT mint transaction created: 0xpending
+2026-03-23T15:33:43.397+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.m.controller.MarketController    : 收到固定价格挂单请求：sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3, tokenId=1774251192522, price=1000000000000000
+2026-03-23T15:33:49.767+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.config.GlobalExceptionHandler    : Security error: Seller does not own the NFT
+2026-03-23T15:33:53.541+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:33:53.548+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:00.887+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:00.895+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:26.932+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.b.controller.IpfsController      : Failed to upload image to IPFS
+
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:551) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.execute(RealCall.kt:154) ~[okhttp-4.12.0.jar!/:na]
+	at com.zhm.springboot.userservice.blockchain.service.IpfsService.uploadFile(IpfsService.java:48) ~[!/:0.0.1-SNAPSHOT]
+	at com.zhm.springboot.userservice.blockchain.controller.IpfsController.uploadImage(IpfsController.java:95) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.net.SocketTimeoutException: Connect timed out
+		... 81 common frames omitted
+
+2026-03-23T15:34:26.940+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.config.GlobalExceptionHandler    : Unexpected error occurred
+
+org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Broken pipe
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse.handleIOException(StandardServletAsyncWebRequest.java:346) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:418) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1205) ~[jackson-core-2.19.0.jar!/:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.19.0.jar!/:2.19.0]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:485) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:126) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:345) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:304) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:266) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:133) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:415) ~[spring-web-6.2.7.jar!/:6.2.7]
+	... 60 common frames omitted
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1380) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.filters.GzipOutputFilter.flush(GzipOutputFilter.java:107) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1271) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:300) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	... 63 common frames omitted
+
+2026-03-23T15:34:29.852+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.nft.controller.NftController     : 收到 NFT 铸造请求：creatorAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, name=智能, category=Art
+2026-03-23T15:34:29.861+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.nft.service.NftService           : Generated metadata hash: 4a3c12776b2f175c9310b0304bcad4fb54a70dbf58344ebed059e9772d371329
+2026-03-23T15:34:29.862+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.nft.service.NftService           : NFT mint transaction created: 0xpending
+2026-03-23T15:34:36.425+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:36.431+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:52.469+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:34:52.480+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:23.462+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:23.469+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:28.429+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:28.435+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:47.467+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:35:47.474+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:36:11.898+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.m.controller.MarketController    : 收到固定价格挂单请求：sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3, tokenId=1774251044325, price=1000000000000000
+2026-03-23T15:36:12.334+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.config.GlobalExceptionHandler    : Security error: Seller does not own the NFT
+2026-03-23T15:36:21.547+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.m.controller.MarketController    : 收到固定价格挂单请求：sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3, tokenId=1774002058920, price=1000000000000000
+2026-03-23T15:36:21.962+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.config.GlobalExceptionHandler    : Security error: Seller does not own the NFT
+2026-03-23T15:36:26.783+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.m.controller.MarketController    : 收到固定价格挂单请求：sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895, nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3, tokenId=1774030427315, price=1000000000000000
+2026-03-23T15:36:27.204+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.config.GlobalExceptionHandler    : Security error: Seller does not own the NFT
+2026-03-23T15:36:32.715+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.m.controller.MarketController    : 收到购买请求：orderId=10, buyerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895
+2026-03-23T15:36:32.737+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.config.GlobalExceptionHandler    : Illegal argument: Order not found: 10
+2026-03-23T15:36:36.335+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.m.controller.MarketController    : 收到购买请求：orderId=7, buyerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895
+2026-03-23T15:36:36.344+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.config.GlobalExceptionHandler    : Illegal argument: Order not found: 7
+2026-03-23T15:39:43.855+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.b.controller.IpfsController      : Received image upload request: iwEdAqNwbmcDAQTRB4AF0QQ4BrAQR4jxefuCkgkNBHL1vN0AB9MAAAABVsLciQgACaJpbQoAC9IAEdnG.png
+2026-03-23T15:39:43.859+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.blockchain.service.IpfsService   : Uploading file to IPFS: ipfs_4778052099994712953_iwEdAqNwbmcDAQTRB4AF0QQ4BrAQR4jxefuCkgkNBHL1vN0AB9MAAAABVsLciQgACaJpbQoAC9IAEdnG.png
+2026-03-23T15:41:22.879+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:41:22.886+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:41:44.477+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.b.controller.IpfsController      : Failed to upload image to IPFS
+
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:551) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201) ~[okhttp-4.12.0.jar!/:na]
+	at okhttp3.internal.connection.RealCall.execute(RealCall.kt:154) ~[okhttp-4.12.0.jar!/:na]
+	at com.zhm.springboot.userservice.blockchain.service.IpfsService.uploadFile(IpfsService.java:48) ~[!/:0.0.1-SNAPSHOT]
+	at com.zhm.springboot.userservice.blockchain.controller.IpfsController.uploadImage(IpfsController.java:95) ~[!/:0.0.1-SNAPSHOT]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+	Suppressed: java.net.SocketTimeoutException: Connect timed out
+		... 81 common frames omitted
+
+2026-03-23T15:41:44.482+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.config.GlobalExceptionHandler    : Unexpected error occurred
+
+org.springframework.web.context.request.async.AsyncRequestNotUsableException: ServletOutputStream failed to flush: java.io.IOException: Broken pipe
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleHttpServletResponse.handleIOException(StandardServletAsyncWebRequest.java:346) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:418) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:153) ~[na:na]
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1205) ~[jackson-core-2.19.0.jar!/:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063) ~[jackson-databind-2.19.0.jar!/:2.19.0]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:485) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:126) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:345) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:304) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:266) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:133) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:415) ~[spring-web-6.2.7.jar!/:6.2.7]
+	... 60 common frames omitted
+Caused by: java.io.IOException: Broken pipe
+	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:97) ~[na:na]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:53) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:532) ~[na:na]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1380) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.filters.GzipOutputFilter.flush(GzipOutputFilter.java:107) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1271) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.Response.action(Response.java:208) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:300) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	... 63 common frames omitted
+
+2026-03-23T15:49:36.869+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:49:36.885+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:50:11.797+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:50:11.811+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:51:48.149+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:51:48.156+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:52:18.825+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:52:18.833+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:52:50.300+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:52:50.306+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:53:01.059+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:53:01.068+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T15:57:33.216+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:06:21.545+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:06:21.551+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:06:44.948+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:06:44.952+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:01.687+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:01.690+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:03.642+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 收到登录请求：username=111, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:07:03.923+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.service.impl.UserServiceImpl     : 用户登录成功: userId=2034924857160269826, username=111
+2026-03-23T16:07:04.797+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] o.a.r.c.core.RocketMQClientTemplate      : Failed to send message
+
+org.apache.rocketmq.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at org.apache.rocketmq.shaded.io.grpc.Status.asRuntimeException(Status.java:539) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.DelayedClientCall$DelayedListener$3.run(DelayedClientCall.java:471) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.delayOrExecute(DelayedClientCall.java:435) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.DelayedClientCall$DelayedListener.onClose(DelayedClientCall.java:468) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8081
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:07:04.797+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 登录成功生成 Token: userId=2034924857160269826
+2026-03-23T16:07:04.806+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 登录成功，钱包状态：userId=2034924857160269826, hasWallet=false
+2026-03-23T16:07:09.980+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:09.987+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:46.599+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 收到登录请求：username=user, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:07:46.846+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.service.impl.UserServiceImpl     : 用户登录成功: userId=2034928474621640705, username=user
+2026-03-23T16:07:46.851+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] o.a.r.c.core.RocketMQClientTemplate      : Failed to send message
+
+org.apache.rocketmq.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at org.apache.rocketmq.shaded.io.grpc.Status.asRuntimeException(Status.java:539) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8081
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:07:46.851+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 登录成功生成 Token: userId=2034928474621640705
+2026-03-23T16:07:46.854+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 登录成功，钱包状态：userId=2034928474621640705, hasWallet=true
+2026-03-23T16:07:51.719+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:07:51.728+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:20:35.082+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-7] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T16:20:38.679+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-7] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T16:21:03.143+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:21:03.151+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:24:14.537+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T16:24:15.002+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-8] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T16:24:58.965+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:24:58.970+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:03.529+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:03.558+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:22.916+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:22.922+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:33.226+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:25:33.236+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:27:01.318+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:27:01.323+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:27:52.903+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-10] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T16:27:53.347+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-10] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T16:36:07.909+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-3] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T16:36:12.552+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-3] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T16:37:12.543+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:12.549+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:15.893+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:15.896+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:27.938+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 收到登录请求：username=user, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:37:28.186+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.service.impl.UserServiceImpl     : 用户登录成功: userId=2034928474621640705, username=user
+2026-03-23T16:37:28.193+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] o.a.r.c.core.RocketMQClientTemplate      : Failed to send message
+
+org.apache.rocketmq.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at org.apache.rocketmq.shaded.io.grpc.Status.asRuntimeException(Status.java:539) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8081
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:37:28.194+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 登录成功生成 Token: userId=2034928474621640705
+2026-03-23T16:37:28.199+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 登录成功，钱包状态：userId=2034928474621640705, hasWallet=true
+2026-03-23T16:37:32.042+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-1] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:32.052+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:38.162+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:37:38.170+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:38:17.023+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-4] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:38:17.029+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-6] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:40:10.568+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.controller.UserController        : 收到登录请求：username=test, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:40:10.792+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.service.impl.UserServiceImpl     : 登录失败: username=test (用户不存在或密码错误)
+2026-03-23T16:40:10.792+08:00  WARN 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.controller.UserController        : 登录请求失败：username=test
+2026-03-23T16:40:38.679+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 收到登录请求：username=111, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:40:38.901+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.service.impl.UserServiceImpl     : 用户登录成功: userId=2034924857160269826, username=111
+2026-03-23T16:40:38.909+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-2] o.a.r.c.core.RocketMQClientTemplate      : Failed to send message
+
+org.apache.rocketmq.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at org.apache.rocketmq.shaded.io.grpc.Status.asRuntimeException(Status.java:539) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8081
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:40:38.910+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 登录成功生成 Token: userId=2034924857160269826
+2026-03-23T16:40:38.912+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-2] c.z.s.u.controller.UserController        : 登录成功，钱包状态：userId=2034924857160269826, hasWallet=false
+2026-03-23T16:40:38.928+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-3] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:44:45.675+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-7] c.z.s.u.controller.UserController        : 获取用户信息失败：error=JWT strings must contain exactly 2 period characters. Found: 0
+2026-03-23T16:44:53.754+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-9] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '
+2026-03-23T16:47:53.009+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'health'
+2026-03-23T16:47:58.020+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-8] c.z.s.u.config.HealthCheckConfig         : Blockchain health check failed
+
+java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[na:na]
+	at com.zhm.springboot.userservice.config.HealthCheckConfig$BlockchainHealthIndicator.health(HealthCheckConfig.java:75) ~[!/:0.0.1-SNAPSHOT]
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:94) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:47) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:80) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:69) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.7.jar!/:6.2.7]
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$ServletWebOperationAdapter.handle(AbstractWebMvcEndpointHandlerMapping.java:327) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(AbstractWebMvcEndpointHandlerMapping.java:434) ~[spring-boot-actuator-3.5.0.jar!/:3.5.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar!/:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar!/:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:47:58.031+08:00 DEBUG 65087 --- [user-service] [http-nio-8085-exec-8] o.s.jdbc.core.JdbcTemplate               : Executing SQL query [SELECT 1]
+2026-03-23T16:48:18.769+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 收到登录请求：username=111, IP=0:0:0:0:0:0:0:1
+2026-03-23T16:48:18.993+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.service.impl.UserServiceImpl     : 用户登录成功: userId=2034924857160269826, username=111
+2026-03-23T16:48:19.012+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-10] o.a.r.c.core.RocketMQClientTemplate      : Failed to send message
+
+org.apache.rocketmq.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at org.apache.rocketmq.shaded.io.grpc.Status.asRuntimeException(Status.java:539) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.stub.ClientCalls$UnaryStreamToFuture.onClose(ClientCalls.java:544) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.PartialForwardingClientCallListener.onClose(PartialForwardingClientCallListener.java:39) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener.onClose(ForwardingClientCallListener.java:23) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.ForwardingClientCallListener$SimpleForwardingClientCallListener.onClose(ForwardingClientCallListener.java:40) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:563) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:70) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:744) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:723) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/[0:0:0:0:0:0:0:1]:8081
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[na:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at org.apache.rocketmq.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[rocketmq-client-java-5.0.7.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2026-03-23T16:48:19.013+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 登录成功生成 Token: userId=2034924857160269826
+2026-03-23T16:48:19.014+08:00  INFO 65087 --- [user-service] [http-nio-8085-exec-10] c.z.s.u.controller.UserController        : 登录成功，钱包状态：userId=2034924857160269826, hasWallet=false
+2026-03-23T16:48:19.029+08:00 ERROR 65087 --- [user-service] [http-nio-8085-exec-5] c.z.s.u.controller.UserController        : 获取用户信息失败：error=Illegal base64url character: ' '

@@ -1,0 +1,80 @@
+- generic [ref=e2]:
+  - generic [ref=e58]:
+    - generic [ref=e59]: ✓
+    - generic [ref=e60]: NFT 铸造成功！
+    - button "×" [ref=e61] [cursor=pointer]
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - heading "CreativeNFT" [level=1] [ref=e7] [cursor=pointer]
+      - navigation [ref=e8]:
+        - generic [ref=e9] [cursor=pointer]: 首页
+        - generic [ref=e10] [cursor=pointer]: 市场
+        - generic [ref=e11] [cursor=pointer]: 创作
+        - generic [ref=e12] [cursor=pointer]: 代币
+        - generic [ref=e13] [cursor=pointer]: 我的
+        - generic [ref=e14]:
+          - button "🔔" [ref=e16] [cursor=pointer]
+          - button "退出" [ref=e17] [cursor=pointer]
+          - generic [ref=e18]:
+            - generic [ref=e19]: Amoy
+            - generic [ref=e20]: 0x1521...b350
+    - generic [ref=e21]:
+      - heading "创作 NFT" [level=1] [ref=e22]
+      - generic [ref=e62]:
+        - heading "铸造进度" [level=3] [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: ✓
+            - generic [ref=e67]: 文件上传
+          - generic [ref=e68]:
+            - generic [ref=e69]: ✓
+            - generic [ref=e70]: 元数据生成
+          - generic [ref=e71]:
+            - generic [ref=e72]: ✓
+            - generic [ref=e73]: 链上铸造
+          - generic [ref=e74]:
+            - generic [ref=e75]: ✓
+            - generic [ref=e76]: 铸造完成
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 铸造完成
+            - generic [ref=e80]: 100%
+          - generic [ref=e82]: 🎉 恭喜！您的 NFT 已成功铸造，即将跳转到详情页...
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: 作品文件
+          - generic [ref=e26]:
+            - button "💾 对象存储 推荐" [ref=e27] [cursor=pointer]:
+              - text: 💾 对象存储
+              - generic [ref=e28]: 推荐
+            - button "🌐 IPFS 分布式" [ref=e29] [cursor=pointer]:
+              - text: 🌐 IPFS
+              - generic [ref=e30]: 分布式
+          - generic [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: 📁
+            - img "预览" [ref=e53]
+            - generic [ref=e54]:
+              - button "更换文件" [ref=e55]
+              - button "移除文件" [ref=e56]
+            - paragraph [ref=e57]: 点击更换或拖拽新文件
+        - generic [ref=e35]:
+          - generic [ref=e36]: 作品名称
+          - textbox "输入作品名称" [disabled] [ref=e37]: 测试NFT作品
+        - generic [ref=e38]:
+          - generic [ref=e39]: 作品描述
+          - textbox "描述你的作品..." [disabled] [ref=e40]: 这是一个用于测试铸造流程的NFT作品
+        - generic [ref=e41]:
+          - generic [ref=e42]: 分类
+          - combobox [disabled] [ref=e43]:
+            - option "艺术" [selected]
+            - option "音乐"
+            - option "摄影"
+            - option "设计"
+            - option "写作"
+            - option "视频"
+            - option "其他"
+        - generic [ref=e44]:
+          - generic [ref=e45]: 版税比例 (万分比)
+          - spinbutton [disabled] [ref=e46]: "500"
+          - generic [ref=e47]: 500 = 5%, 1000 = 10%。每次转售时你将获得相应比例的收益。
+        - button "铸造中..." [disabled] [ref=e83]

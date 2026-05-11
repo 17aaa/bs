@@ -1,0 +1,33 @@
+@startuml 3-05-nft-mint-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #E8F4FD
+
+title 图3-5 NFT铸造流程图
+
+start
+
+:用户填写作品信息;
+
+:上传作品文件;
+
+:生成元数据;
+
+if (IPFS可用?) then (是)
+  :上传至IPFS获取CID;
+else (否)
+  :使用MinIO降级存储;
+endif
+
+:调用合约铸造NFT;
+
+:保存资产与版本记录;
+
+:自动提交审核;
+
+:铸造完成;
+
+stop
+
+@enduml

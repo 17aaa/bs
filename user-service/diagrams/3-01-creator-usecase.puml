@@ -1,0 +1,55 @@
+@startuml 3-01-creator-usecase
+!theme plain
+skinparam backgroundColor white
+skinparam actorStyle awesome
+skinparam usecase {
+    BackgroundColor #E8F4FD
+    BorderColor #333333
+}
+
+title 图3-1 创作者用例图
+
+left to right direction
+
+actor "创作者" as creator
+
+usecase "身份认证" as UC1
+usecase "MetaMask签名" as UC2
+usecase "服务端钱包" as UC3
+usecase "钱包绑定" as UC4
+
+usecase "作品确权" as UC5
+usecase "上传作品文件" as UC6
+usecase "填写作品信息" as UC7
+usecase "版本更新" as UC8
+usecase "查看版本历史" as UC9
+
+usecase "上架出售" as UC10
+usecase "固定价格上架" as UC11
+usecase "荷兰拍卖上架" as UC12
+usecase "取消上架" as UC13
+
+usecase "粉丝代币" as UC14
+usecase "发行代币" as UC15
+
+creator -- UC1
+creator -- UC5
+creator -- UC10
+creator -- UC14
+
+UC2 .> UC1 : <<extend>>
+UC3 .> UC1 : <<extend>>
+UC1 ..> UC4 : <<include>>
+
+UC5 ..> UC6 : <<include>>
+UC5 ..> UC7 : <<include>>
+UC8 .> UC5 : <<extend>>
+UC8 ..> UC9 : <<include>>
+
+UC11 .> UC10 : <<extend>>
+UC12 .> UC10 : <<extend>>
+UC13 .> UC10 : <<extend>>
+
+UC15 .> UC14 : <<extend>>
+
+@enduml

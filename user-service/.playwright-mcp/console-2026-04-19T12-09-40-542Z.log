@@ -1,0 +1,301 @@
+[      61ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[      66ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[      66ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     370ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     370ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     370ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     370ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     371ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     371ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     371ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     371ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[     371ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     371ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     371ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     372ms] [LOG] 钱包连接成功: {address: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  400645ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[  400653ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  400653ms] [LOG] 使用后端创建的钱包地址自动连接: 0x9f22d40b8f88e403f626bbfe3f18f17e153c6ef6 @ http://localhost:3000/src/services/web3.js:176
+[  400983ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[  401829ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  401829ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  401830ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  401830ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  401830ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  401830ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  401899ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[  401902ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  401902ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  402207ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  402208ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  402208ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  402208ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  402210ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  402210ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  402210ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[  402211ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[  402211ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  402211ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  402211ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[  402211ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5078127ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5078129ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5078130ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5078130ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5078131ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5078131ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5078159ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5078159ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5078160ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5078161ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5078166ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5078166ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5078167ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5078167ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5087763ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5087764ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5087764ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5087764ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5087765ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5087765ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5087771ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5087771ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5087772ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5087772ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5087778ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5087778ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5087779ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5087779ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5104036ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ http://localhost:8085/api/market/buy/1?buyerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895:0
+[ 5104037ms] [ERROR] 服务器错误，请稍后重试 @ http://localhost:3000/@vite/client:509
+[ 5104037ms] [ERROR] 购买失败: Error: 服务器错误，请稍后重试
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.buyNft (http://localhost:3000/src/services/api.js:165:20)
+    at async handleBuy (http://localhost:3000/src/pages/MarketPage.jsx?t=1776598822316:330:21) @ http://localhost:3000/@vite/client:509
+[ 5115906ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/market/list?sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895&nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3&tokenId=1774260950830&price=1000000000000000&nftAssetId=11:0
+[ 5115907ms] [ERROR] 权限错误：Seller does not own the NFT: tokenId=1774260950830 @ http://localhost:3000/@vite/client:509
+[ 5115907ms] [ERROR] 挂单失败: Error: 权限错误：Seller does not own the NFT: tokenId=1774260950830
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.createFixedPriceSale (http://localhost:3000/src/services/api.js:157:20)
+    at async handleSell (http://localhost:3000/src/pages/MarketPage.jsx?t=1776598822316:403:21) @ http://localhost:3000/@vite/client:509
+[ 5125765ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5125765ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5125766ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5125766ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5125766ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5125766ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5125771ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5125772ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5125772ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5125772ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5125778ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5125779ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5125779ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5125779ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5130356ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5130356ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5130357ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5130357ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5130357ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5130357ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5130361ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5130361ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5130361ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5130361ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5130364ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5130364ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5130365ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5130365ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5133302ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5133302ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5133303ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5133303ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5133303ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5133303ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5133309ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5133309ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5133309ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5133310ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5133313ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5133313ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5133314ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5133314ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5148600ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5148600ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5148601ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5148601ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5148601ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5148601ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5148608ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5148608ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5148608ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5148608ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5148612ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5148612ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5148612ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5148613ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5152950ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5152950ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5152952ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5152952ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5152953ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5152953ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5152961ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5152961ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5152961ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5152962ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5152967ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5152967ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5152967ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5152968ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5176515ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5176515ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5176517ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[ 5176517ms] [LOG] 使用后端创建的钱包地址自动连接: 0xb7faccc77cbaab84d41802194bb1a88b2107f895 @ http://localhost:3000/src/services/web3.js:176
+[ 5176517ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5176517ms] [LOG] 钱包连接成功: {address: 0xb7faccc77cbaab84d41802194bb1a88b2107f895, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[ 5176527ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5176527ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5176527ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5176527ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5176531ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[ 5176531ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[ 5176532ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[ 5176533ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[ 5181696ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/market/list?sellerAddress=0xb7faccc77cbaab84d41802194bb1a88b2107f895&nftContract=0x5FbDB2315678afecb367f032d93F642f64180aa3&tokenId=1774260950830&price=1000000000000000&nftAssetId=11:0
+[ 5181697ms] [ERROR] 权限错误：Seller does not own the NFT: tokenId=1774260950830 @ http://localhost:3000/@vite/client:509
+[ 5181697ms] [ERROR] 挂单失败: Error: 权限错误：Seller does not own the NFT: tokenId=1774260950830
+    at http://localhost:3000/src/services/api.js:101:24
+    at async Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2514:11)
+    at async Object.createFixedPriceSale (http://localhost:3000/src/services/api.js:157:20)
+    at async handleSell (http://localhost:3000/src/pages/MarketPage.jsx?t=1776598822316:403:21) @ http://localhost:3000/@vite/client:509

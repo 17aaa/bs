@@ -1,0 +1,64 @@
+- generic [ref=e461]:
+  - banner [ref=e462]:
+    - heading "CreativeNFT" [level=1] [ref=e463] [cursor=pointer]
+    - navigation [ref=e464]:
+      - generic [ref=e465] [cursor=pointer]: 首页
+      - generic [ref=e466] [cursor=pointer]: 市场
+      - generic [ref=e467] [cursor=pointer]: 创作
+      - generic [ref=e468] [cursor=pointer]: 代币
+      - generic [ref=e469] [cursor=pointer]: 我的
+      - generic [ref=e470]:
+        - generic [ref=e471]: 💰 98.00 积分
+        - button "🔔" [ref=e473] [cursor=pointer]
+        - button "退出" [ref=e474] [cursor=pointer]
+        - generic [ref=e475]:
+          - generic [ref=e476]: Amoy
+          - generic [ref=e477]: 0x22e1...1b8d
+  - generic [ref=e478]:
+    - button "← 返回" [ref=e480] [cursor=pointer]
+    - img "测试NFT作品" [ref=e482]
+    - generic [ref=e483]:
+      - heading "测试NFT作品" [level=1] [ref=e484]
+      - paragraph [ref=e485]: 这是一个用于测试铸造流程的NFT作品
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]: 分类
+          - text: Art
+        - generic [ref=e489]:
+          - generic [ref=e490]: 创作者
+          - generic [ref=e491]: 0x152139e7...
+        - generic [ref=e492]:
+          - generic [ref=e493]: Token ID
+          - text: "1776844672776"
+        - generic [ref=e494]:
+          - generic [ref=e495]: 版税
+          - generic [ref=e496]: 5.00%
+        - generic [ref=e497]:
+          - generic [ref=e498]: 当前版本
+          - generic [ref=e499]: v1
+        - generic [ref=e500]:
+          - generic [ref=e501]: 状态
+          - text: 正常
+      - generic [ref=e502]:
+        - button "详情" [ref=e503] [cursor=pointer]
+        - button "版本历史 (1)" [ref=e504] [cursor=pointer]
+        - button "持有记录" [ref=e505] [cursor=pointer]
+      - generic [ref=e506]:
+        - heading "当前所有者" [level=3] [ref=e507]
+        - generic [ref=e508]:
+          - generic [ref=e509]: "地址:"
+          - link "0x22e1...1b8d" [ref=e510] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e511]:
+          - generic [ref=e512]: "合约地址:"
+          - link "0x5FbD...0aa3" [ref=e513] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e514]:
+          - generic [ref=e515]: "创建时间:"
+          - generic [ref=e516]: 2026/4/22 15:57:53
+      - generic [ref=e517]:
+        - button "上架销售" [ref=e518] [cursor=pointer]
+        - button "在市场查看" [ref=e519] [cursor=pointer]
+      - generic [ref=e520]:
+        - generic [ref=e521]: 收到的报价 刷新
+        - generic [ref=e522]: 暂无报价

@@ -1,0 +1,65 @@
+# 区块链配置文件
+blockchain:
+  # Polygon 网络配置
+  network:
+    # 网络类型：amoy(测试网) 或 mainnet(主网)
+    type: amoy
+    # RPC 节点 URL
+    rpc-url: https://rpc-amoy.polygon.technology/
+    # WebSocket 节点 URL（用于事件监听）
+    ws-url: wss://rpc-amoy.polygon.technology/ws
+    # 区块链浏览器 URL
+    explorer-url: https://amoy.polygonscan.com
+    # 链 ID
+    chain-id: 80002
+
+  # Gas 配置
+  gas:
+    # Gas 价格（Wei）
+    price: 30000000000
+    # Gas 限制
+    limit: 3000000
+    # Gas 缓冲系数（1.2 = 20% 缓冲）
+    buffer-factor: 1.2
+
+  # 合约地址配置（本地部署地址，部署到 Amoy 后更新）
+  contract:
+    # NFT Asset 合约地址
+    nft-asset-address: "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    # Micro Market 合约地址
+    micro-market-address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+    # Fan Token 合约地址
+    fan-token-address: "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+
+  # 钱包配置
+  wallet:
+    # 平台钱包私钥（用于部署合约和平台操作）
+    platform-private-key: ""
+    # Keystore 存储路径
+    keystore-path: ./wallets/keystore
+    # 加密密码（从环境变量读取）
+    encryption-password: ${WALLET_ENCRYPTION_PASSWORD:}
+
+  # IPFS 配置
+  ipfs:
+    # IPFS 模式：pinata（Pinata 服务）、local（本地节点）、disabled（降级到 MinIO）
+    mode: ${IPFS_MODE:disabled}
+    # IPFS 节点 URL（local 模式使用）
+    url: ${IPFS_API_URL:http://localhost:5001}
+    # IPFS 网关 URL
+    gateway: ${IPFS_GATEWAY_URL:https://gateway.pinata.cloud/ipfs/}
+    # Pinata API URL（pinata 模式使用）
+    pinata-url: ${PINATA_API_URL:https://api.pinata.cloud}
+    # Pinata JWT Token
+    pinata-jwt: ${PINATA_JWT:}
+
+  # 交易配置
+  transaction:
+    # 最大重试次数
+    max-retries: 3
+    # 重试间隔（毫秒）
+    retry-interval: 2000
+    # 交易确认等待时间（毫秒）
+    confirmation-timeout: 60000
+    # Nonce 缓存过期时间（秒）
+    nonce-cache-expire: 300

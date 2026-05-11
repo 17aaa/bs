@@ -1,0 +1,35 @@
+@startuml 3-04-wallet-auth-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #E8F4FD
+
+title 图3-4 钱包认证流程图
+
+start
+
+:用户访问系统;
+
+if (安装MetaMask?) then (是)
+  :连接MetaMask获取地址;
+  :请求挑战消息;
+  :用户签名;
+  if (签名验证通过?) then (是)
+    if (用户已注册?) then (是)
+      :登录成功;
+    else (否)
+      :自动注册并绑定钱包;
+      :登录成功;
+    endif
+  else (否)
+    :认证失败;
+    stop
+  endif
+else (否)
+  :创建服务端钱包;
+  :自动注册并登录;
+endif
+
+stop
+
+@enduml

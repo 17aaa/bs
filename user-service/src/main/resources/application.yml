@@ -1,0 +1,202 @@
+spring:
+  application:
+    name: user-service
+  # 文件上传配置
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 100MB
+      file-size-threshold: 2KB
+
+  profiles:
+    active: dev
+
+  # 允许循环依赖
+  main:
+    allow-circular-references: true
+
+  cloud:
+    nacos:
+      config:
+        enabled: false
+      discovery:
+        enabled: false
+        server-addr: localhost:8848
+
+  datasource:
+    url: jdbc:shardingsphere:classpath:sharding.yaml
+    driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      database: 0
+      timeout: 5000ms
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 2
+          max-wait: -1ms
+
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+# shardingsphere无侵入配置，单数据源自由切换
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/userdb
+#    username: root
+#    password: 123456
+
+
+#    mybatis-plus:
+#      mapper-locations: classpath*:mapper/*.xml
+#      type-aliases-package: com.zhm.springboot.userservice.entity
+
+debug: true
+
+jwt:
+  secret: ${JWT_SECRET:CreativeNFTMarketSecretKey2024ForHS512AlgorithmABCDEFGHIJKLMNOPQRSTUVWXYZ123456}
+  access-expire: ${JWT_ACCESS_EXPIRE:3600000}
+  refresh-expire: ${JWT_REFRESH_EXPIRE:604800000}
+
+server:
+  port: 8085
+  servlet:
+    context-path: /
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/plain
+    min-response-size: 1024
+
+# Actuator 健康检查配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: always
+      show-components: always
+  info:
+    env:
+      enabled: true
+
+# 日志配置
+logging:
+  level:
+    com.zhm.springboot.userservice: INFO
+    org.springframework.web: WARN
+    org.web3j: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/user-service.log
+    max-size: 100MB
+    max-history: 30
+
+# 区块链配置
+blockchain:
+  rpc-url: https://rpc-amoy.polygon.technology/
+  chain-id: 80002
+  gas-price: 30000000000  # 30 Gwei
+  gas-limit: 500000
+  platform-private-key: ${BLOCKCHAIN_PLATFORM_PRIVATE_KEY:}
+  contract:
+    nft-asset-address: ${NFT_ASSET_CONTRACT_ADDRESS:0x5FbDB2315678afecb367f032d93F642f64180aa3}
+    micro-market-address: ${MICRO_MARKET_CONTRACT_ADDRESS:}
+    fan-token-address: ${FAN_TOKEN_CONTRACT_ADDRESS:}
+  ipfs:
+    # IPFS 模式：pinata（Pinata 服务）、local（本地节点）、disabled（降级到 MinIO）
+    mode: ${IPFS_MODE:disabled}
+    # IPFS 节点 URL（local 模式使用）
+    url: ${IPFS_API_URL:http://localhost:5001}
+    # IPFS 网关 URL（用于访问文件）
+    gateway: ${IPFS_GATEWAY_URL:https://gateway.pinata.cloud/ipfs/}
+    # Pinata API URL（pinata 模式使用）
+    pinata-url: ${PINATA_API_URL:https://api.pinata.cloud}
+    # Pinata JWT Token
+    pinata-jwt: ${PINATA_JWT:}
+    # 备用网关列表（用于故障转移）
+    backup-gateways:
+      - https://gateway.ipfs.io/ipfs/
+      - https://cloudflare-ipfs.com/ipfs/
+      - https://dweb.link/ipfs/
+    # 上传文件大小限制（默认 50MB = 52428800 字节）
+    max-file-size: 52428800
+    # 批量上传最大文件数
+    max-batch-size: 10
+    # 允许的文件类型
+    allowed-mime-types:
+      - image/jpeg
+      - image/png
+      - image/gif
+      - image/webp
+      - image/svg+xml
+      - application/json
+      - text/plain
+      - video/mp4
+      - audio/mpeg
+    # 连接超时（秒）
+    connect-timeout: 60
+    # 写入超时（秒）
+    write-timeout: 120
+    # 读取超时（秒）
+    read-timeout: 120
+    # 重试次数
+    retry-count: 3
+    # 是否自动固定文件
+    auto-pin: true
+    # 是否启用本地缓存
+    enable-cache: true
+    # 缓存目录
+    cache-dir: ./ipfs-cache
+# MinIO 对象存储配置
+minio:
+  enabled: true
+  endpoint: ${MINIO_ENDPOINT:http://localhost:9000}
+  access-key: ${MINIO_ACCESS_KEY:minioadmin}
+  secret-key: ${MINIO_SECRET_KEY:minioadmin123}
+  bucket-name: ${MINIO_BUCKET_NAME:nft-assets}
+  public-url: ${MINIO_PUBLIC_URL:http://localhost:9000}
+  connect-timeout: 10
+  write-timeout: 60
+  read-timeout: 60
+
+# 本地存储配置（MinIO 未启用时使用）
+storage:
+  local:
+    path: ${STORAGE_LOCAL_PATH:./uploads}
+    base-url: ${STORAGE_BASE_URL:http://localhost:8085/api/upload}
+
+rocketmq:
+  producer:
+    endpoints: localhost:8081
+    group: user-service-producer
+
+#事务消息配置
+    send-message-timeout: 3000
+    retry-times-when-send-failed: 3
+      # 事务回查配置
+    check-thread-pool-min-size: 2
+    check-thread-pool-max-size: 5
+    check-request-hold-max: 30000
+
+  consumer:
+    endpoints: localhost:8081
+    group: user-service-consumer
+
+  topic:
+    operation-log: user-operation-topic
+
+
+

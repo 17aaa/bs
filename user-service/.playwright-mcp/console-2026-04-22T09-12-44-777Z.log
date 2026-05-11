@@ -1,0 +1,33 @@
+[     137ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=ad0d08ed:14337
+[     141ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     141ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     447ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     447ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     449ms] [LOG] WalletButton: 自动连接后端创建的钱包: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/components/WalletButton.jsx:68
+[     449ms] [LOG] 使用后端创建的钱包地址自动连接: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350 @ http://localhost:3000/src/services/web3.js:176
+[     450ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     450ms] [LOG] 钱包连接成功: {address: 0x152139e7cd2132e7cb8cddd8ee1ca84d7909b350, isMock: false, isServerWallet: true} @ http://localhost:3000/src/components/WalletButton.jsx:76
+[     461ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[     461ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[     462ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509
+[     462ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[     477ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications?page=1&size=20:0
+[     477ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ http://localhost:8085/api/notifications/unread-count:0
+[     477ms] [ERROR] 获取通知失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchNotifications (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:171:21) @ http://localhost:3000/@vite/client:509
+[     478ms] [ERROR] 获取未读数量失败: AxiosError: Request failed with status code 400
+    at settle (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1634:14)
+    at XMLHttpRequest.onloadend (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:1951:4)
+    at Axios$1.request (http://localhost:3000/node_modules/.vite/deps/axios.js?v=ad0d08ed:2518:37)
+    at async fetchUnreadCount (http://localhost:3000/src/components/NotificationCenter.jsx?t=1776598822316:190:21) @ http://localhost:3000/@vite/client:509

@@ -1,0 +1,26 @@
+@startuml 3-08-nft-review-flow
+!theme plain
+skinparam backgroundColor white
+skinparam ActivityBorderColor #333333
+skinparam ActivityBackgroundColor #E8F4FD
+
+title 图3-8 NFT审核流程图
+
+start
+
+:NFT铸造完成，自动提交审核;
+
+:管理员查看待审核队列;
+
+if (审核决定?) then (通过)
+  :作品可上架市场交易;
+else (驳回)
+  :填写驳回原因;
+  :作品不可上架;
+endif
+
+:记录审核信息;
+
+stop
+
+@enduml

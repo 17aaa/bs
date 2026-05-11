@@ -1,0 +1,277 @@
+<mxfile host="drawio-plugin" modified="2026-04-27T15:46:36.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="22.1.22" etag="u3rwEUsRRA2vbszhBWMP" type="embed">
+  <diagram id="er-diagram" name="E-R总图">
+    <mxGraphModel dx="3404" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="用户" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="角色" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="-110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="钱包" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="NFT资产" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="版本历史" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="-70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="审核记录" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="铸造任务" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="IPFS文件" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="-170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="交易订单" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="粉丝代币" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="质押记录" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="360" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="交易通知" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-35" y="-280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="审计日志" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontSize=16;fontStyle=1;fontName=SimSun;strokeWidth=2;arcSize=0;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="350" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="拥有" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-210" y="40" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="绑定" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="创建" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="240" y="40" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="发起" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="160" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="审核" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="迭代" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-70" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="被审核" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="370" y="160" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="交易" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-90" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="关联" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="产出" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="260" y="100" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="发行代币" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="630" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="质押" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="640" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="触发" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="接收" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="-120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="产生" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#000000;fontSize=14;fontStyle=1;fontName=SimSun;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="31" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="16" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="33" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="35" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="17" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="37" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="39" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="18" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="41" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="43" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="19" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="45" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="47" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="20" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="49" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="6" target="21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="51" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="21" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="53" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="6" target="22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="56" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="55" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="22" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="58" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="57" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="6" target="23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="59" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="23" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="62" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="61" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="6" target="24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="63" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="24" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="65" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="9" target="25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="68" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="67" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="25" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="70" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="69" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="6" target="26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="71" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="73" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="26" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="74" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="73" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="12" target="27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="75" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="27" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="77" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="11" target="28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="79" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="28" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="81" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="83" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="83" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="85" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="29" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="86" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="85" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="87" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="3" target="30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="87" vertex="1" connectable="0">
+          <mxGeometry x="-0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="89" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=1.5;fontSize=14;fontName=SimSun;" parent="1" source="30" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="90" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontStyle=1;fontName=SimSun;labelBackgroundColor=#FFFFFF;" parent="89" vertex="1" connectable="0">
+          <mxGeometry x="0.8" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,41 @@
+@startuml 3-12-ipfs-dual-storage-sequence
+!theme plain
+skinparam backgroundColor white
+skinparam sequenceMessageAlign center
+skinparam sequenceParticipantBorderColor #9673A6
+skinparam sequenceParticipantBackgroundColor #E1D5E7
+skinparam sequenceLifeLineBorderColor #999999
+skinparam participantPadding 20
+skinparam messageSpacing 30
+
+
+
+actor "用户" as User
+participant "前端" as FE
+participant "后端" as BE
+participant "MinIO" as MinIO
+participant "IPFS" as IPFS
+database "MySQL" as DB
+
+== 上传到MinIO ==
+
+User -> FE : 选择文件上传
+FE -> BE : 上传文件
+BE -> MinIO : 存储文件
+MinIO --> BE : 返回文件标识
+BE -> DB : 创建文件记录
+
+== 尝试上传到IPFS ==
+
+alt IPFS上传成功
+    BE -> IPFS : 上传文件
+    IPFS --> BE : 返回CID
+    BE -> DB : 更新为IPFS地址
+else IPFS不可用
+    BE -> BE : 降级使用MinIO地址
+end
+
+BE --> FE : 返回文件地址
+FE -> User : 显示文件预览
+
+@enduml

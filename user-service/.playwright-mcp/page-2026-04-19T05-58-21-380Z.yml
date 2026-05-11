@@ -1,0 +1,80 @@
+- generic [ref=e177]:
+  - banner [ref=e178]:
+    - heading "CreativeNFT" [level=1] [ref=e179] [cursor=pointer]
+    - navigation [ref=e180]:
+      - generic [ref=e181] [cursor=pointer]: 首页
+      - generic [ref=e182] [cursor=pointer]: 市场
+      - generic [ref=e183] [cursor=pointer]: 创作
+      - generic [ref=e184] [cursor=pointer]: 代币
+      - generic [ref=e185] [cursor=pointer]: 我的
+      - generic [ref=e186]:
+        - button "🔔" [ref=e188] [cursor=pointer]
+        - button "退出" [ref=e189] [cursor=pointer]
+        - generic [ref=e190]:
+          - generic [ref=e191]: Amoy
+          - generic [ref=e192]: 0x9f22...6ef6
+  - generic [ref=e193]:
+    - button "← 返回" [ref=e195] [cursor=pointer]
+    - generic [ref=e196]: 🎨
+    - generic [ref=e197]:
+      - heading "测试111" [level=1] [ref=e198]
+      - paragraph [ref=e199]: "1"
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e202]: 分类
+          - text: Art
+        - generic [ref=e203]:
+          - generic [ref=e204]: 创作者
+          - generic [ref=e205]: 0xb7faccc7...
+        - generic [ref=e206]:
+          - generic [ref=e207]: Token ID
+          - text: "1774251192522"
+        - generic [ref=e208]:
+          - generic [ref=e209]: 版税
+          - generic [ref=e210]: 5.00%
+        - generic [ref=e211]:
+          - generic [ref=e212]: 当前版本
+          - generic [ref=e213]: v1
+        - generic [ref=e214]:
+          - generic [ref=e215]: 状态
+          - text: 正常
+      - generic [ref=e216]:
+        - button "详情" [ref=e217] [cursor=pointer]
+        - button "版本历史 (1)" [ref=e218] [cursor=pointer]
+        - button "持有记录" [ref=e219] [cursor=pointer]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: 分类
+          - text: Art
+        - generic [ref=e223]:
+          - generic [ref=e224]: 创作者
+          - link "0xb7fa...f895" [ref=e226] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e227]:
+          - generic [ref=e228]: Token ID
+          - text: "1774251192522"
+        - generic [ref=e229]:
+          - generic [ref=e230]: 版税
+          - generic [ref=e231]: 5.00%
+        - generic [ref=e232]:
+          - generic [ref=e233]: 当前版本
+          - generic [ref=e234]: v1
+        - generic [ref=e235]:
+          - generic [ref=e236]: 状态
+          - generic [ref=e237]: 正常
+      - generic [ref=e238]:
+        - heading "当前所有者" [level=3] [ref=e239]
+        - generic [ref=e240]:
+          - generic [ref=e241]: "地址:"
+          - link "0xb7fa...f895" [ref=e242] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e243]:
+          - generic [ref=e244]: "合约地址:"
+          - link "0x5FbD...0aa3" [ref=e245] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e246]:
+          - generic [ref=e247]: "创建时间:"
+          - generic [ref=e248]: 2026/3/23 15:33:13
+      - generic [ref=e249]:
+        - button "购买此 NFT" [ref=e250] [cursor=pointer]
+        - button "提交报价" [ref=e251] [cursor=pointer]

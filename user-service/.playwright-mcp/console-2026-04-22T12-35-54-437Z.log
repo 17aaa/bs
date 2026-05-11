@@ -1,0 +1,22 @@
+[     155ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5180/node_modules/.vite/deps/react-dom_client.js?v=9eee57a1:14337
+[     182ms] [WARNING] styled-components: it looks like an unknown prop "variant" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:5180/@vite/client:509
+[     223ms] TypeError: Cannot read properties of undefined (reading 'role')
+    at Object.render (http://localhost:5180/src/pages/Settings/Admins.jsx:201:15)
+    at http://localhost:5180/src/components/common/Table.jsx:88:101
+    at Array.map (<anonymous>)
+    at http://localhost:5180/src/components/common/Table.jsx:88:21
+    at Array.map (<anonymous>)
+    at Table (http://localhost:5180/src/components/common/Table.jsx:85:18)
+    at Object.react_stack_bottom_frame (http://localhost:5180/node_modules/.vite/deps/react-dom_client.js?v=9eee57a1:12868:12)
+    at renderWithHooks (http://localhost:5180/node_modules/.vite/deps/react-dom_client.js?v=9eee57a1:4213:19)
+    at updateFunctionComponent (http://localhost:5180/node_modules/.vite/deps/react-dom_client.js?v=9eee57a1:5569:16)
+    at beginWork (http://localhost:5180/node_modules/.vite/deps/react-dom_client.js?v=9eee57a1:6140:20)
+[     222ms] [WARNING] %s
+
+%s
+ An error occurred in the <Table> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5180/@vite/client:509
+[   90322ms] [WARNING] styled-components: it looks like an unknown prop "active" is being sent through to the DOM, which will likely trigger a React console error. If you would like automatic filtering of unknown props, you can opt-into that behavior via `<StyleSheetManager shouldForwardProp={...}>` (connect an API like `@emotion/is-prop-valid`) or consider using transient props (`$` prefix for automatic filtering.) @ http://localhost:5180/@vite/client:509
+[   90322ms] [ERROR] Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true active active true active @ http://localhost:5180/@vite/client:509

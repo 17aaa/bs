@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - textbox [ref=e5]: "@startuml Bob -> Alice : hello @enduml"
+      - generic [ref=e6]:
+        - textbox "You can enter here a previously generated URL" [ref=e8]: //www.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80
+        - button "Decode URL" [ref=e10]
+      - img "Autorefresh" [ref=e11] [cursor=pointer]
+      - button "Submit" [ref=e12]
+      - img "Dark mode" [ref=e13] [cursor=pointer]
+      - img "Change layout" [ref=e14] [cursor=pointer]
+      - img "Extract window" [ref=e15] [cursor=pointer]
+      - combobox [ref=e16]:
+        - option [selected]
+        - option "amiga"
+        - option "aws-orange"
+        - option "black-knight"
+        - option "bluegray"
+        - option "blueprint"
+        - option "cerulean-outline"
+        - option "cerulean"
+        - option "crt-amber"
+        - option "crt-green"
+        - option "cyborg-outline"
+        - option "cyborg"
+        - option "hacker"
+        - option "lightgray"
+        - option "mars"
+        - option "materia-outline"
+        - option "materia"
+        - option "metal"
+        - option "mimeograph"
+        - option "minty"
+        - option "plain"
+        - option "reddress-darkblue"
+        - option "reddress-darkgreen"
+        - option "reddress-darkorange"
+        - option "reddress-darkred"
+        - option "reddress-lightblue"
+        - option "reddress-lightgreen"
+        - option "reddress-lightorange"
+        - option "reddress-lightred"
+        - option "sandstone"
+        - option "silver"
+        - option "sketchy-outline"
+        - option "sketchy"
+        - option "spacelab"
+        - option "spacelab-white"
+        - option "superhero-outline"
+        - option "superhero"
+        - option "toy"
+        - option "united"
+        - option "vibrant"
+      - link "🎉 Discover the future PlantUML Web Editor! 🚀" [ref=e17] [cursor=pointer]:
+        - /url: https://editor.plantuml.com/uml/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80
+      - link "PNG" [ref=e18] [cursor=pointer]:
+        - /url: https://cdn-0.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80
+      - link "SVG" [ref=e19] [cursor=pointer]:
+        - /url: https://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80
+      - link "ASCII Art" [ref=e20] [cursor=pointer]:
+        - /url: https://www.plantuml.com/plantuml/txt/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80
+      - img "PlantUML diagram" [ref=e23]
+    - img "Ezoic" [ref=e31] [cursor=pointer]
+  - generic [ref=e33]:
+    - link "Home" [ref=e34] [cursor=pointer]:
+      - /url: https://plantuml.com
+      - img "Home" [ref=e35]
+    - link "What's New ?" [ref=e36] [cursor=pointer]:
+      - /url: https://plantuml.com/news
+      - img "What's New ?" [ref=e37]
+    - link "Getting Started" [ref=e38] [cursor=pointer]:
+      - /url: https://plantuml.com/starting
+      - img "Getting Started" [ref=e39]
+    - link "Online Server" [ref=e40] [cursor=pointer]:
+      - /url: https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000
+      - img "Online Server" [ref=e41]
+    - link "Running" [ref=e42] [cursor=pointer]:
+      - /url: https://plantuml.com/running
+      - img "Running" [ref=e43]
+    - link "F.A.Q." [ref=e44] [cursor=pointer]:
+      - /url: https://plantuml.com/faq
+      - img "F.A.Q." [ref=e45]
+    - link "Download" [ref=e46] [cursor=pointer]:
+      - /url: https://plantuml.com/download
+      - img "Download" [ref=e47]
+    - link "Forum" [ref=e48] [cursor=pointer]:
+      - /url: https://forum.plantuml.net
+      - img "Forum" [ref=e49]
+    - link "Theme" [ref=e50] [cursor=pointer]:
+      - /url: https://plantuml.com/theme
+      - img "Theme" [ref=e51]
+    - link "Preprocessing" [ref=e52] [cursor=pointer]:
+      - /url: https://plantuml.com/preprocessing
+      - img "Preprocessing" [ref=e53]
+    - link "Standard Library" [ref=e54] [cursor=pointer]:
+      - /url: https://plantuml.com/stdlib
+      - img "Standard Library" [ref=e55]
+    - link "Hitchhiker's Guide" [ref=e56] [cursor=pointer]:
+      - /url: https://crashedmind.github.io/PlantUMLHitchhikersGuide
+      - img "Hitchhiker's Guide" [ref=e57]
+    - link "PDF Guide" [ref=e58] [cursor=pointer]:
+      - /url: https://plantuml.com/guide
+      - img "PDF Guide" [ref=e59]

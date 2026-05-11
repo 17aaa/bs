@@ -1,0 +1,58 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]: NFT 管理后台
+    - generic [ref=e6]:
+      - generic [ref=e7]: 概览
+      - link "📊 仪表盘" [ref=e8] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e9]: 📊
+        - text: 仪表盘
+    - generic [ref=e10]:
+      - generic [ref=e11]: 管理
+      - link "👥 用户管理" [ref=e12] [cursor=pointer]:
+        - /url: /users
+        - generic [ref=e13]: 👥
+        - text: 用户管理
+      - link "🎨 NFT 管理" [ref=e14] [cursor=pointer]:
+        - /url: /nfts
+        - generic [ref=e15]: 🎨
+        - text: NFT 管理
+      - link "💰 交易管理" [ref=e16] [cursor=pointer]:
+        - /url: /orders
+        - generic [ref=e17]: 💰
+        - text: 交易管理
+      - link "🪙 粉丝代币" [ref=e18] [cursor=pointer]:
+        - /url: /fan-tokens
+        - generic [ref=e19]: 🪙
+        - text: 粉丝代币
+    - generic [ref=e20]:
+      - generic [ref=e21]: 系统
+      - link "⚙️ 管理员" [ref=e22] [cursor=pointer]:
+        - /url: /settings/admins
+        - generic [ref=e23]: ⚙️
+        - text: 管理员
+  - banner [ref=e24]:
+    - heading "仪表盘" [level=1] [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27]: 超级管理员
+      - generic [ref=e28]: admin
+      - button "退出登录" [ref=e29] [cursor=pointer]
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - textbox "搜索用户名 / 邮箱" [ref=e34]
+        - button "搜索管理员" [ref=e35] [cursor=pointer]
+        - button "+ 添加管理员" [ref=e36] [cursor=pointer]
+      - table [ref=e38]:
+        - rowgroup [ref=e39]:
+          - row "ID 用户名 邮箱 学校 角色 创建时间 操作" [ref=e40]:
+            - columnheader "ID" [ref=e41]
+            - columnheader "用户名" [ref=e42]
+            - columnheader "邮箱" [ref=e43]
+            - columnheader "学校" [ref=e44]
+            - columnheader "角色" [ref=e45]
+            - columnheader "创建时间" [ref=e46]
+            - columnheader "操作" [ref=e47]
+        - rowgroup [ref=e48]:
+          - row "暂无数据" [ref=e49]:
+            - cell "暂无数据" [ref=e50]
